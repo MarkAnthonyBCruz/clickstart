@@ -184,7 +184,7 @@
       <workItem from="1594559261576" duration="3073000" />
       <workItem from="1594620140207" duration="9645000" />
       <workItem from="1594635975453" duration="5761000" />
-      <workItem from="1594645815494" duration="546000" />
+      <workItem from="1594645815494" duration="780000" />
     </task>
     <task id="LOCAL-00001" summary="Changed URL">
       <created>1594636358312</created>
@@ -249,7 +249,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594640225379</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Small change">
+      <created>1594646491026</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1594646491026</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -297,10 +304,10 @@
     </state>
     <state x="445" y="254" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.738@0.0.1366.738" timestamp="1592825050381" />
     <state x="445" y="264" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.768@0.0.1366.768" timestamp="1590749731453" />
-    <state x="277" y="159" width="970" height="804" key="CommitChangelistDialog2" timestamp="1594640222249">
+    <state x="277" y="159" width="970" height="804" key="CommitChangelistDialog2" timestamp="1594646480416">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="277" y="159" width="970" height="804" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1594640222249" />
+    <state x="277" y="159" width="970" height="804" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1594646480416" />
     <state x="628" y="189" key="FileChooserDialogImpl" timestamp="1594547545886">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
