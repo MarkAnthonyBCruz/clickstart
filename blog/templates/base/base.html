@@ -19,8 +19,9 @@
     <link href="https://fonts.googleapis.com/css?family=B612" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
     <link rel="shortcut icon" href="{% static 'blog/images/favicon.ico' %}">
-    <script src="https://cdn.tiny.cloud/1/4uo76d4wgycsi3tr3xqkyrpzlm401b9t5op28iiewjvm8d3w/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
-    <script>tinymce.init({selector : "textarea:not(.mceNoEditor)",  plugins: "image"});</script>
+    <script src="https://cdn.tiny.cloud/1/4uo76d4wgycsi3tr3xqkyrpzlm401b9t5op28iiewjvm8d3w/tinymce/5/tinymce.min.js"
+            referrerpolicy="origin"></script>
+    <script>tinymce.init({selector: "textarea:not(.mceNoEditor)", plugins: "image"});</script>
     {% if title %}
         <title>Clickstart CCTV - {{ title }}</title>
 
@@ -38,7 +39,8 @@
     <nav class="navbar navbar-expand-md navbar-dark bg-steel fixed-top">
         <div class="container">
             <a class="navbar-brand mr-4" style="font-family: 'Zilla Slab', sans-serif; font-size: 25px;" href="/"><img
-                    src="{% static 'blog/images/click_icon150x150.png' %}" style="width: 50px; height: 50px; margin-right: 10px; ">CLICKSTART CCTV</a>
+                    src="{% static 'blog/images/click_icon150x150.png' %}"
+                    style="width: 50px; height: 50px; margin-right: 10px; ">CLICKSTART CCTV</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle"
                     aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -102,14 +104,26 @@
             {% block content %}{% endblock %}
         </div>
 
+
         <div class="col-md-4 mt-4">
+
+            <div class="content-section text-center">
+                <h4>Having trouble with your <strong>Hikvision Password</strong>and <strong>Remote Viewing through Mobile?</strong></h4>
+                <h5>We can help you with that!</h5>
+                    <img src="https://img.icons8.com/clouds/2x/password-window.png" style="width: 120px; height: 120px;"></a>
+                <br>
+                <br>
+                <h4>Just call or text us at <strong>0932-171-2155</strong> for support!</h4>
+            </div>
+
             <div class="content-section text-center">
                 <h2>Buy Us A Coffee!</h2>
-                <a target = "_blank" href="https://paypal.me/allanpalma2019?locale.x=en_US">
-                    <img src = "{% static 'blog/images/B8tfkG3s_400x400.jpg' %}" style = "width: 80px; height: 80px;"></a>
+                <a target="_blank" href="https://paypal.me/allanpalma2019?locale.x=en_US">
+                    <img src="{% static 'blog/images/B8tfkG3s_400x400.jpg' %}" style="width: 80px; height: 80px;"></a>
                 <br>
                 <br>
-                <h5>If you are satisfied and happy with my website, you can support me for its improvement and to help the victims of Covid-19 around the world.</h5>
+                <h5>If you are satisfied and happy with my website, you can support me for its improvement and to help
+                    the victims of Covid-19 around the world.</h5>
             </div>
 
             <div class="content-section text-center">
@@ -118,10 +132,12 @@
                 <div class="row">
                     <a href="https://www.facebook.com/clickstartcctv/" target="_blank"><img
                             src="{% static 'blog/images/facebook.png' %}" id="soc"></a>
-                    <a href="https://twitter.com/clickstartcctv" target="_blank"><img src="{% static 'blog/images/twitter.png' %}" id="soc"></a>
+                    <a href="https://twitter.com/clickstartcctv" target="_blank"><img
+                            src="{% static 'blog/images/twitter.png' %}" id="soc"></a>
                     <a href="https://www.youtube.com/channel/UCBPEHyFfB6RXDetde5EU6Vw" target="_blank"><img
                             src="{% static 'blog/images/youtube.png' %}" id="soc"></a>
-                    <a href="https://www.instagram.com/clickstartcctv/" target="_blank"><img src="{% static 'blog/images/instagram.png' %}" id="soc"></a>
+                    <a href="https://www.instagram.com/clickstartcctv/" target="_blank"><img
+                            src="{% static 'blog/images/instagram.png' %}" id="soc"></a>
                 </div>
             </div>
 
@@ -198,7 +214,9 @@
     <div class="row">
         <div class="col-md-3 footer-brand animated fadeInLeft">
             <img id="footerimg" src="{% static 'blog/images/click_icon150x150.png' %}">
-            <p>Clickstart CCTV's mission is to provide the people with security to the highest degree through video surveillance solutions. With this clear-cut objective in mind, the dedication, grit, and hardwork of our staff will ensure that we will always deliver on our promise.</p>
+            <p>Clickstart CCTV's mission is to provide the people with security to the highest degree through video
+                surveillance solutions. With this clear-cut objective in mind, the dedication, grit, and hardwork of our
+                staff will ensure that we will always deliver on our promise.</p>
             <p>© 2020 Clickstart CCTV, All rights reserved</p>
         </div>
         <div class="col-md-4 footer-nav animated fadeInUp">
