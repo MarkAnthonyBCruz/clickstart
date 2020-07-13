@@ -28,7 +28,7 @@ SECRET_KEY = 'tb-j4cl%poziv4qh-3c=v8pz*6hf)aycf*1fv4st5b0sk4pgs0'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['clickstartcctv.herokuapp.com']
 
 
 # Application definition
