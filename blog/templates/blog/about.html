@@ -1,0 +1,101 @@
+{% extends "base/base.html" %}
+{% load static %}
+{% block content %}
+    <h1 id="about">About Us</h1>
+
+
+    <hr>
+    <h3 id="about2">Clickstart CCTV Installation Services</h3>
+    <div class="container-fluid" id="img-container">
+        <p id="info-company"><img src="/media/profile_pics/click_icon150x150.png" id="logo" class="left">
+            Clickstart CCTV Company was founded by Mr. Allan Palma Cruz in October 2019.
+            As a newly-established company, Clickstart uses this as its pride and drive in having the unwavering determination to provide the best services possible.
+            We specialize in the supply, design, maintenance, and installation of video surveillance systems with the best interest of the customers’ individual needs in mind.
+            Equipped with in-depth understanding of the latest technology, we are committed in helping our customers in finding the most comprehensive solutions.
+        </p>
+
+    </div>
+    <div class="container-fluid" id="img-container" style="margin-bottom: 60px;">
+        <h3 id="about3">Our Mission and Vision</h3>
+
+        <p id="info-company">
+            Clickstart CCTV's mission is to provide the people with security to the highest degree through video surveillance solutions.
+            With this clear-cut objective in mind, the dedication, grit, and hardwork of our staff will ensure that we will always deliver on our promise.</p>
+    </div>
+
+
+    <h1 id = "choose">Why Choose Us?</h1>
+
+
+    <hr>
+
+    <div class="container-fluid">
+        <div class="row" id = "qualityrow">
+            <div class="card">
+                <div class="card-body">
+                    <img id="quality" src="{% static 'blog/images/services/customized.png' %}">
+                    <h2 id="info-text">Customized Requirements</h2>
+                    <p id="qualitytext">We are more than eager to meet the client's every need and requirement, from
+                        method of installation and schedule to materials.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-body">
+                    <img id="quality" src="{% static 'blog/images/services/delivery.png' %}">
+                    <center><h2 id="info-text">Quality Materials</h2></center>
+                    <p id="qualitytext">The materials used for installation of cameras are handpicked to ensure
+                        efficiency and quality. </p>
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="row" id = "qualityrow">
+                <div class="card">
+                    <div class="card-body">
+                        <img id="quality" src="{% static 'blog/images/services/highquality.png' %}">
+                        <center><h2 id="info-text">Outstanding Service</h2></center>
+                        <p id="qualitytext">Every step we take is scrutinized so that we can achieve the desired results
+                            of
+                            the client. </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <img id="quality" src="{% static 'blog/images/services/highvalue.png' %}">
+                        <center><h2 id="info-text">Value for Money</h2></center>
+                        <p id = "qualitytext">We make sure that every penny you spend is matched to the best and suitable
+                            CCTV
+                            cameras and services that we offer.</p>
+                    </div>
+                </div>
+            </div>
+
+        <div class="row" id = "qualityrow">
+            <div class="card">
+                <div class="card-body">
+                    <img id ="quality" src="{% static 'blog/images/services/support.png' %}">
+                    <center><h2 id="info-text">Long-Term Warranty</h2></center>
+                    <p id = "qualitytext">We provide one-year warranty to make sure that you're covered in every problem
+                        that might arise.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-body">
+                    <img id="quality" src="{% static 'blog/images/services/cloud.png' %}">
+                    <center><h2 id ="info-text">Anytime, Anywhere</h2></center>
+                    <p id = "qualitytext">The CCTV cameras are your eyes and ears, and you can see and hear them in a
+                        simple touch on a viewing app in your smartphone!</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+{% endblock content %}

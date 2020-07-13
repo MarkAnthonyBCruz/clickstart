@@ -1,0 +1,47 @@
+{% extends "base/base.html" %}
+{% load static %}
+{% load el_pagination_tags %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Latest News</title>
+    <style>
+
+    </style>
+</head>
+
+{% block content %}
+    <!--<div class="jumbotron" style = 'background-image: url("{% static 'blog/images/bg.png' %}"); background-size: cover;
+      padding-top: 20%;
+      padding-bottom: 20%;'>
+        <center><h1>News</h1></center>
+    </div>-->
+    {% for new, des, i, det, author, erl in mylist %}
+    <article class="media content-section mt-4">
+    <!---<img class = "article-img" src= "{{ i }}" alt="">-->
+        <div class = "media-body">
+             <div class="article-metadata">
+                 <img class = 'rounded-circle article-img' src= "{% static 'blog/images/newspaper (2).png' %}">
+                 {% if author == "" %}
+                    <a class="mr-2">Engadget</a>
+                 {% elif author == None %}
+                     <a class="mr-2">The Wall Street Journal</a>
+                 {% else %}
+                     <a class="mr-2">{{ author }}</a>
+                 {% endif %}
+                 <small class="text-muted">{{ det }}</small>
+             </div>
+            {{ value | linebreaks }}
+            <div class = "container">
+                <h2><a href ="{{ erl }}" target="_blank">{{ new }}</a></h2>
+                {{ value | linebreaks }}
+                <img src = "{{ i }}" style='height: 100%; width: 100%; object-fit: contain'/>
+                {{ value | linebreaks }}
+                <p class = "article-content">{{ des }}</p>
+            </div>
+        </div>
+    </article>
+    {% endfor %}
+{% endblock %}
+</html>

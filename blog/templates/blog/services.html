@@ -1,0 +1,12 @@
+{% extends 'base/base.html' %}
+{% block content %}
+{% load static %}
+    <h1 style = 'text-align:center; margin-top: 25px;'>CCTV Package</h1>
+    <div class = "container-fluid" style = "margin-left: 60px; margin-bottom: 50px;">
+        <img src = "{% static 'blog/images/Clickstartpackage.jpg' %}" style = "width: 80%; height: 80%; object-fit: contain;">
+    </div>
+    <h1 style = 'text-align:center; margin-bottom: 25px;'>We also install and sell Time and Attendance Biometric System</h1>
+    <div class = "container-fluid">
+        <img src = "{% static 'blog/images/biometric design.jpg' %}" style = "margin-left: 60px; width: 80%; height: 80%; object-fit: contain;">
+    </div>
+{% endblock content %}

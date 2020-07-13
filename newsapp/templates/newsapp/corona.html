@@ -1,0 +1,74 @@
+{% extends 'base/base.html' %}
+{% load static %}
+{% block content %}
+    <div class="jumbotron" style='background-image: url("{% static 'blog/images/bg1.jpeg' %}"); background-size: cover;
+            padding-top: 20%;
+            padding-bottom: 20%;'>
+        <center><h1></h1></center>
+    </div>
+
+    <center><h1 style="font-family: 'Inconsolata', sans-serif; margin-bottom: 50px;">Philippines Coronavirus Tracker as
+        of {{ time|date:"F d, Y" }}</h1></center>
+
+    <div class="row">
+        <div class="card">
+            <div class="card-body">
+                <center><h1 class="card-title">All Cases</h1></center>
+                <center><h1>{{ all }}</h1></center>
+                <img src="{% static 'blog/images/corona-virus.png' %}" style="object-fit: contain; margin: auto;">
+                {{ values|linebreaks }}
+                <center><h6>Confirmed cases so far.</h6></center>
+                {{ values|linebreaks }}
+            </div>
+        </div>
+
+        <div class="card" style="margin-left: 90px;">
+            <div class="card-body">
+                <center><h1 class="card-title">Deaths</h1></center>
+                <center><h1>{{ deaths }}</h1></center>
+                <img src="{% static 'blog/images/death.png' %}" style="object-fit: contain; margin: auto;">
+                {{ values|linebreaks }}
+                <center><h6>Total number of deaths since the outbreak</h6></center>
+                {{ values|linebreaks }}
+            </div>
+        </div>
+
+    </div>
+
+    <div class="row">
+        <div class="card" style="margin-top: 70px;">
+            <div class="card-body">
+                <center><h1 class="card-title">Recoveries</h1></center>
+                <center><h1>{{ recovered }}</h1></center>
+                <img src="{% static 'blog/images/hospital.png' %}" style="object-fit: contain; margin: auto;">
+                {{ values|linebreaks }}
+                <center><h6>Total number of recoveries.</h6></center>
+                {{ values|linebreaks }}
+            </div>
+        </div>
+
+        <div class="card" style="margin-top: 70px; margin-left: 90px;">
+            <div class="card-body">
+                <center><h1 class="card-title">New Cases</h1></center>
+                <center><h1>{{ new }}</h1></center>
+                <img src="{% static 'blog/images/sick.png' %}" style="object-fit: contain; margin: auto;">
+                <center><h6>New cases for today.</h6></center>
+                {{ values|linebreaks }}
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="card" style="margin:auto; margin-top: 70px; margin-bottom: 30px; ">
+            <div class="card-body">
+                <center><h1 class="card-title">Critical</h1></center>
+                <center><h1>{{ critical }}</h1></center>
+                <img src="{% static 'blog/images/seneeze.png' %}" style="object-fit: contain; margin: auto;">
+                {{ values|linebreaks }}
+                <center><h6>Number of people currently in critical condition.</h6></center>
+                {{ values|linebreaks }}
+            </div>
+        </div>
+    </div>
+
+{% endblock %}
