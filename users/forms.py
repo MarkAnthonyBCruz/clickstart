@@ -1,9 +1,10 @@
 from django import forms
 from django.contrib.auth.models import User
 from django.contrib.auth.forms import UserCreationForm
+from .admin import MyUserCreationForm
 from .models import Profile
 
-class UserRegisterForm(UserCreationForm):
+class UserRegisterForm(MyUserCreationForm):
     email = forms.EmailField()
 
     class Meta:
