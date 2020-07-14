@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="feafc1e2-3587-4fc2-9a7c-b1671b55f9e0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/templates/base/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/base/base.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -186,7 +185,7 @@
       <workItem from="1594620140207" duration="9645000" />
       <workItem from="1594635975453" duration="5761000" />
       <workItem from="1594645815494" duration="4062000" />
-      <workItem from="1594710453984" duration="235000" />
+      <workItem from="1594710453984" duration="475000" />
     </task>
     <task id="LOCAL-00001" summary="Changed URL">
       <created>1594636358312</created>
@@ -286,7 +285,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594648871473</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Updated blank links">
+      <created>1594710728290</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1594710728290</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -307,7 +313,8 @@
     <MESSAGE value="Added Hikvision support in base html" />
     <MESSAGE value="Added Hikvision support in base html 2" />
     <MESSAGE value="Fixed blog title and content" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed blog title and content" />
+    <MESSAGE value="Updated blank links" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated blank links" />
   </component>
   <component name="WindowStateProjectService">
     <state x="679" y="126" key="#BlogApp" timestamp="1594546843462">
@@ -381,10 +388,10 @@
     <state x="170" y="28" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1591588503116" />
     <state x="170" y="40" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1589954220018" />
     <state x="436" y="147" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1594546931197" />
-    <state x="289" y="296" key="Vcs.Push.Dialog.v2" timestamp="1594648959211">
+    <state x="289" y="296" key="Vcs.Push.Dialog.v2" timestamp="1594710859484">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="289" y="296" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1594648959211" />
+    <state x="289" y="296" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1594710859484" />
     <state x="744" y="375" key="com.intellij.ide.util.TipDialog" timestamp="1594710460553">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
