@@ -185,7 +185,7 @@
       <workItem from="1594620140207" duration="9645000" />
       <workItem from="1594635975453" duration="5761000" />
       <workItem from="1594645815494" duration="4062000" />
-      <workItem from="1594710453984" duration="475000" />
+      <workItem from="1594710453984" duration="848000" />
     </task>
     <task id="LOCAL-00001" summary="Changed URL">
       <created>1594636358312</created>
@@ -292,7 +292,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594710728290</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Updated blank links 2">
+      <created>1594711034898</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1594711034898</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -314,7 +321,8 @@
     <MESSAGE value="Added Hikvision support in base html 2" />
     <MESSAGE value="Fixed blog title and content" />
     <MESSAGE value="Updated blank links" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated blank links" />
+    <MESSAGE value="Updated blank links 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated blank links 2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="679" y="126" key="#BlogApp" timestamp="1594546843462">
@@ -344,10 +352,10 @@
     </state>
     <state x="445" y="254" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.738@0.0.1366.738" timestamp="1592825050381" />
     <state x="445" y="264" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.768@0.0.1366.768" timestamp="1590749731453" />
-    <state x="658" y="80" width="970" height="804" key="CommitChangelistDialog2" timestamp="1594710719991">
+    <state x="658" y="80" width="970" height="804" key="CommitChangelistDialog2" timestamp="1594711033846">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="658" y="80" width="970" height="804" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1594710719991" />
+    <state x="658" y="80" width="970" height="804" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1594711033846" />
     <state x="628" y="189" key="FileChooserDialogImpl" timestamp="1594547545886">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -388,10 +396,10 @@
     <state x="170" y="28" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1591588503116" />
     <state x="170" y="40" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1589954220018" />
     <state x="436" y="147" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1594546931197" />
-    <state x="289" y="296" key="Vcs.Push.Dialog.v2" timestamp="1594710859484">
+    <state x="289" y="296" key="Vcs.Push.Dialog.v2" timestamp="1594711050933">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="289" y="296" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1594710859484" />
+    <state x="289" y="296" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1594711050933" />
     <state x="744" y="375" key="com.intellij.ide.util.TipDialog" timestamp="1594710460553">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
