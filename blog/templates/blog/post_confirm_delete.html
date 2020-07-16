@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 {% extends "base/base.html" %}
 {% block content %}
-    <div class="content-section">
+    <div class="content-section" style="margin-top:25px;">
         <form method="POST">
             {% csrf_token %}
             <fieldset class="form-group">
@@ -11,7 +11,7 @@
             <div class="form-group">
                 <button class ="btn btn-outline-danger" type="submit">Yes, Delete</button>
                 <!--<a class ="btn btn-outline-secondary" href=""> Cancel</a>-->
-                <a class ="btn btn-outline-secondary" href="{% url 'blog:post_detail' slug=object.slug pk=object.id %}"></a>
+                <a class ="btn btn-outline-secondary" href="{% url 'blog:post_detail' slug=object.slug pk=object.id %}">Cancel</a>
             </div>
         </form>
     </div>

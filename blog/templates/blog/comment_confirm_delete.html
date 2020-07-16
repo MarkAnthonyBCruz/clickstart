@@ -1,6 +1,6 @@
 {% extends "base/base.html" %}
 {% block content %}
-    <div class="content-section">
+    <div class="content-section" style="margin-top:25px;">
         <form method="POST">
             {% csrf_token %}
             <fieldset class="form-group">
@@ -9,7 +9,7 @@
             </fieldset>
             <div class="form-group">
                 <button class ="btn btn-outline-danger" type="submit">Yes, Delete</button>
-                <a class ="btn btn-outline-secondary" href="{% url 'blog:post_detail' slug=comment.post.slug pk=comment.post.id %}"> Cancel</a>
+                <a class ="btn btn-outline-secondary" href="{% url 'blog:post_detail' slug=comment.post.slug pk=comment.post.id %}">Cancel</a>
             </div>
         </form>
     </div>
