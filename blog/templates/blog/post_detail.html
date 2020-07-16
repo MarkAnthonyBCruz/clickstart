@@ -12,8 +12,8 @@
                 <small class="text-muted">{{ object.date_posted|date:"F d, Y" }}</small>
                 {% if object.author == user %}
                     <a class="btn btn-secondary btn-sm mt-1 mb-1"
-                       href="{% url 'blog:post_update' object.id %}">Update</a>
-                    <a class="btn btn-danger btn-sm mt-1 mb-1" href="{% url 'blog:post_delete' object.id %}">Delete</a>
+                       href="{% url 'blog:post_update' slug=object.slug pk=object.id %}">Update</a>
+                    <a class="btn btn-danger btn-sm mt-1 mb-1" href="{% url 'blog:post_delete' slug=object.slug pk=object.id %}">Delete</a>
                 {% endif %}
             </div>
             <div class="container">
@@ -42,7 +42,7 @@
                             <a class="btn btn-danger btn-sm mt-1 mb-1" href="{% url 'blog:comment_delete' coms.id %}">Delete</a>
                         {% endif %}
                     </div>
-                    <b><p class="article-content mt-6">{{ coms.body }}</p></b>
+                    <b><p class="article-content mt-6">{{ coms.body|safe }}</p></b>
                     {% if coms.comm_images %}
                         <img id="commentimg" src="{{ coms.comm_images.url }}" alt="">
                     {% endif %}

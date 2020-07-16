@@ -9,7 +9,7 @@
                     <small class="text-muted">{{ post.date_posted|date:"F d, Y" }}</small>
                 </div>
                 <div class="container">
-                    <h2><a class="article-title" href="{% url 'blog:post_detail' post.id %}">{{ post.title }}</a></h2>
+                    <h2><a class="article-title" href="{% url 'blog:post_detail' slug=post.slug pk=post.id %}">{{ post.title }}</a></h2>
 
                     {% if post.images %}
                         <img class="mb-2 mt-2" alt="" src="{{ post.images.url }}"

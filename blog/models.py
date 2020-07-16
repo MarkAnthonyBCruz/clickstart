@@ -19,14 +19,22 @@ class Post(models.Model):
         return self.title
 
     def get_absolute_url(self):
+        return reverse("blog:post_detail", kwargs={'slug': self.slug, 'pk': self.pk})
+
+    """def get_absolute_url(self):
         return reverse('blog:post_detail', kwargs={'pk': self.pk})
+    """
+    def save(self, *args, **kwargs):  # new
+        if not self.slug:
+            self.slug = slugify(self.title)
+        return super().save(*args, **kwargs)
 
 class Comment(models.Model):
     post = models.ForeignKey(Post, on_delete=models.CASCADE, related_name='comments')
-    name = models.CharField(max_length=80)
-    email = models.EmailField()
-    body = models.TextField()
-    comm_images = models.ImageField(blank = True, upload_to='comment_images')
+    name = models.CharField(max_length=80, blank=True)
+    email = models.EmailField(blank=True)
+    body = models.TextField(blank=True)
+    comm_images = models.ImageField(blank=True, upload_to='comment_images')
     created_on = models.DateTimeField(auto_now_add=True)
     active = models.BooleanField(default=False)
 
@@ -35,3 +43,4 @@ class Comment(models.Model):
 
     def __str__(self):
         return 'Comment {} by {}'.format(self.body, self.name)
+    

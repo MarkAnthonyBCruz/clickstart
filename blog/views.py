@@ -55,9 +55,11 @@ class PostDetailView(FormMixin, DetailView):
     form_class = CommentForm
 
     def get_success_url(self):
-        return reverse("blog:post_detail", args=[self.kwargs['pk']])
+        return reverse("blog:post_detail", args=[self.kwargs['slug'], self.kwargs['pk']])
+
 
     def get_context_data(self, **kwargs):
+        pk = self.kwargs.get("pk")
         context = super(PostDetailView, self).get_context_data(**kwargs)
         context['comment'] = Comment.objects.filter(post=self.kwargs['pk']).order_by('-created_on')
         context['form'] = CommentForm(initial={'active': True, 'post': self.kwargs['pk']})
@@ -103,7 +105,7 @@ class PostUpdateView(LoginRequiredMixin, UserPassesTestMixin, UpdateView):
 
 class PostDeleteView(LoginRequiredMixin, UserPassesTestMixin, DeleteView):
     model = Post
-    success_url = '/'
+    success_url = '/blog/'
 
     def test_func(self):
         post = self.get_object()
@@ -116,7 +118,7 @@ class CommentDeleteView(LoginRequiredMixin, DeleteView):
     model = Comment
 
     def get_success_url(self):
-        return reverse('blog:post_detail', kwargs = {'pk': self.object.post.id})
+        return reverse('blog:post_detail', kwargs={'slug': self.object.post.slug, 'pk': self.object.post.pk})
 
 class UserPostListView(ListView):
     model = Post
