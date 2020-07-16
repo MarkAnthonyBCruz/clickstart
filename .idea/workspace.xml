@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="feafc1e2-3587-4fc2-9a7c-b1671b55f9e0" name="Default Changelist" comment="Max length lengthened.">
+    <list default="true" id="feafc1e2-3587-4fc2-9a7c-b1671b55f9e0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -187,7 +188,7 @@
       <workItem from="1594645815494" duration="4062000" />
       <workItem from="1594710453984" duration="4476000" />
       <workItem from="1594796618143" duration="7414000" />
-      <workItem from="1594882425394" duration="5531000" />
+      <workItem from="1594882425394" duration="7418000" />
     </task>
     <task id="LOCAL-00001" summary="Changed URL">
       <created>1594636358312</created>
@@ -336,7 +337,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594890406111</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Max length lengthened 2">
+      <created>1594891068145</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1594891068145</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -364,7 +372,8 @@
     <MESSAGE value="Added Slug functionality" />
     <MESSAGE value="Margin edit" />
     <MESSAGE value="Max length lengthened." />
-    <option name="LAST_COMMIT_MESSAGE" value="Max length lengthened." />
+    <MESSAGE value="Max length lengthened 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Max length lengthened 2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="679" y="126" key="#BlogApp" timestamp="1594546843462">
@@ -394,10 +403,10 @@
     </state>
     <state x="445" y="254" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.738@0.0.1366.738" timestamp="1592825050381" />
     <state x="445" y="264" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.768@0.0.1366.768" timestamp="1590749731453" />
-    <state x="658" y="80" width="970" height="804" key="CommitChangelistDialog2" timestamp="1594890817853">
+    <state x="658" y="80" width="970" height="804" key="CommitChangelistDialog2" timestamp="1594893352920">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="658" y="80" width="970" height="804" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1594890817853" />
+    <state x="658" y="80" width="970" height="804" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1594893352920" />
     <state x="628" y="189" key="FileChooserDialogImpl" timestamp="1594547545886">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -438,10 +447,10 @@
     <state x="170" y="28" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1591588503116" />
     <state x="170" y="40" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1589954220018" />
     <state x="436" y="147" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1594546931197" />
-    <state x="289" y="296" key="Vcs.Push.Dialog.v2" timestamp="1594890421397">
+    <state x="289" y="296" key="Vcs.Push.Dialog.v2" timestamp="1594891555835">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="289" y="296" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1594890421397" />
+    <state x="289" y="296" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1594891555835" />
     <state x="744" y="375" key="com.intellij.ide.util.TipDialog" timestamp="1594882429702">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
