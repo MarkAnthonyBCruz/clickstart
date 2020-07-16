@@ -5,7 +5,7 @@ from django.template.defaultfilters import slugify
 from django.contrib.auth.models import User
 # Create your models here.
 class Post(models.Model):
-    title = models.CharField(max_length=100, blank=True)
+    title = models.CharField(max_length=200, blank=True)
     content = models.TextField(blank=True)
     date_posted = models.DateTimeField(default=timezone.now)
     #we didn't use timezone.now() because we just want to get the value
