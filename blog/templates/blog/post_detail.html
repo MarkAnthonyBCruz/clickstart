@@ -6,6 +6,7 @@
 {% load static %}
 <head>
     <title>{{ object.title }}</title>
+    <meta property="og:title" content="{{ object.title }}">
 </head>
 {% block content %}
     <article class="media content-section mb-4 mt-4">
