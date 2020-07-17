@@ -46,6 +46,7 @@ INSTALLED_APPS = [
     'newsapp.apps.NewsappConfig',
     'el_pagination',
     'tinymce',
+    'django_social_share',
 ]
 
 MIDDLEWARE = [
@@ -76,6 +77,7 @@ TEMPLATES = [
                 'django.contrib.messages.context_processors.messages',
                 'blog.context_processors.weather',
                 'blog.context_processors.crona',
+                #'blog.context_processors.getcat',
             ],
         },
     },

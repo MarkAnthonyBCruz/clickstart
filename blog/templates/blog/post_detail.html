@@ -2,7 +2,11 @@
 {% extends "base/base.html" %}
 {% load crispy_forms_tags %}
 {% load el_pagination_tags %}
+{% load social_share %}
 {% load static %}
+<head>
+    <title>{{ object.title }}</title>
+</head>
 {% block content %}
     <article class="media content-section mb-4 mt-4">
         <div class="media-body">
@@ -13,16 +17,33 @@
                 {% if object.author == user %}
                     <a class="btn btn-secondary btn-sm mt-1 mb-1"
                        href="{% url 'blog:post_update' slug=object.slug pk=object.id %}">Update</a>
-                    <a class="btn btn-danger btn-sm mt-1 mb-1" href="{% url 'blog:post_delete' slug=object.slug pk=object.id %}">Delete</a>
+                    <a class="btn btn-danger btn-sm mt-1 mb-1"
+                       href="{% url 'blog:post_delete' slug=object.slug pk=object.id %}">Delete</a>
                 {% endif %}
             </div>
             <div class="container">
                 <h2 class="article-title mb-4">{{ object.title }}</h2>
+                <i class="fa fa-list-alt" aria-hidden="true"></i> Category: {{ object.category }}<br>
+                <i class="fa fa-tag" aria-hidden="true"></i> Tags:
+                {% for tags in object.tag.all %}
+                    <i>{{ tags.name }}</i>
+                    {{ forloop.last|yesno:",&#44;"|safe }}
+                {% empty %}
+                    None
+                {% endfor %}
                 {% if object.images %}
                     <img src="{{ object.images.url }}" alt="" style='height: 100%; width: 100%; object-fit: contain'>
                 {% endif %}
                 <p class="article-content">{{ object.content|safe }}</p>
+                <br>
+                <div style="margin-bottom:8px;"><strong>Liked the content? You may share it to your favourite sites.</strong></div>
+                <div class="row" style="margin-left:3px;">
+                    {% post_to_facebook "Post!" %}
+                    {% post_to_twitter "Post!" %}
+                    {% post_to_telegram "Post!" %}
+                </div>
             </div>
+
         </div>
     </article>
 

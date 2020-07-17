@@ -4,6 +4,12 @@ import dateutil.parser
 from django.utils import timezone
 from .models import Post
 
+"""def getcat(request):
+   
+    return {
+
+    }
+"""
 
 def weather(request):
     url = 'http://api.openweathermap.org/data/2.5/weather?q={}&units=imperial&appid=1b453b589a0691c857ddc95f0921df69'
