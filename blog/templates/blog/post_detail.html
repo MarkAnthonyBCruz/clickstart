@@ -41,8 +41,7 @@
                 <div style="margin-bottom:8px;"><strong>Liked the content? You may share it to your favourite sites.</strong></div>
                 <div class="row" style="margin-left:3px;">
                     {% post_to_facebook object.title %}
-                    {% post_to_twitter "Post!" %}
-                    {% post_to_telegram "Post!" %}
+                    {% post_to_twitter object.title %}
                 </div>
             </div>
 
