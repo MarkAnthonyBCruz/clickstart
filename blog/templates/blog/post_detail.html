@@ -4,11 +4,9 @@
 {% load el_pagination_tags %}
 {% load social_share %}
 {% load static %}
-<head>
-    <title>{{ object.title }}</title>
-    <meta property="og:title" content="{{ object.title }}">
-    <meta property="og:description" content="{{ object.content }}">
-</head>
+
+{% block title %}{{ object.title }}{% endblock %}
+
 {% block content %}
     <article class="media content-section mb-4 mt-4">
         <div class="media-body">
