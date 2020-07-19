@@ -47,6 +47,7 @@ INSTALLED_APPS = [
     'el_pagination',
     'tinymce',
     'django_social_share',
+    'django.contrib.sitemaps',
 ]
 
 MIDDLEWARE = [

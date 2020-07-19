@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="feafc1e2-3587-4fc2-9a7c-b1671b55f9e0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/blog/sitemaps.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/templates/blog/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/templates/blog/post_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog/post_detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlogApp/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/BlogApp/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlogApp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/BlogApp/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/templates/blog/user_posts.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog/user_posts.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,8 +55,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -196,7 +198,7 @@
       <workItem from="1594962038131" duration="15641000" />
       <workItem from="1595041928183" duration="1993000" />
       <workItem from="1595058831957" duration="4950000" />
-      <workItem from="1595138959703" duration="1586000" />
+      <workItem from="1595138959703" duration="4587000" />
     </task>
     <task id="LOCAL-00001" summary="Changed URL">
       <created>1594636358312</created>
@@ -422,7 +424,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595062019261</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Fixed Comment Section">
+      <created>1595140782525</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1595140782525</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -430,7 +439,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="heroku push" />
     <MESSAGE value="removed register" />
     <MESSAGE value="removed register 2" />
     <MESSAGE value="Settings changed" />
@@ -455,7 +463,8 @@
     <MESSAGE value="Added Title" />
     <MESSAGE value="Removed Telegram share" />
     <MESSAGE value="Added Tab Titles for visibility" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Tab Titles for visibility" />
+    <MESSAGE value="Fixed Comment Section" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed Comment Section" />
   </component>
   <component name="WindowStateProjectService">
     <state x="679" y="126" key="#BlogApp" timestamp="1594546843462">
@@ -485,14 +494,14 @@
     </state>
     <state x="445" y="254" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.738@0.0.1366.738" timestamp="1592825050381" />
     <state x="445" y="264" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.768@0.0.1366.768" timestamp="1590749731453" />
-    <state x="658" y="80" width="970" height="804" key="CommitChangelistDialog2" timestamp="1595140774694">
+    <state x="658" y="80" width="970" height="804" key="CommitChangelistDialog2" timestamp="1595145127692">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="658" y="80" width="970" height="804" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1595140774694" />
-    <state x="0" y="126" key="DiffContextDialog" timestamp="1594972822781">
+    <state x="658" y="80" width="970" height="804" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1595145127692" />
+    <state x="0" y="126" width="1536" height="861" key="DiffContextDialog" timestamp="1595145114527">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="0" y="126" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1594972822781" />
+    <state x="0" y="126" width="1536" height="861" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1595145114527" />
     <state x="628" y="189" key="FileChooserDialogImpl" timestamp="1594962378563">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -533,10 +542,10 @@
     <state x="170" y="28" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1591588503116" />
     <state x="170" y="40" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1589954220018" />
     <state x="436" y="147" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1594973804250" />
-    <state x="539" y="281" key="Vcs.Push.Dialog.v2" timestamp="1595062032744">
+    <state x="539" y="281" key="Vcs.Push.Dialog.v2" timestamp="1595140799717">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="539" y="281" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1595062032744" />
+    <state x="539" y="281" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1595140799717" />
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1594972679566">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -547,6 +556,10 @@
     <state x="529" y="266" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1594538709621" />
     <state x="529" y="277" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1591443895619" />
     <state x="744" y="375" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1595139385250" />
+    <state x="582" y="221" width="1354" height="763" key="dock-window-1" timestamp="1595144456861">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="582" y="221" width="1354" height="763" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1595144456861" />
     <state x="504" y="440" key="git4idea.rebase.GitRebaseDialog" timestamp="1594633004504">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

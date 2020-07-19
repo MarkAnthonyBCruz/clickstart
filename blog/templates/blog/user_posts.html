@@ -1,17 +1,17 @@
 {% extends "base/base.html" %}
 {% block title %} User Posts {% endblock %}
 {% block content %}
-    <h1 class="mb-3"> Posts by {{ view.kwargs.username }} ({{ page_obj.paginator.count }})</h1>
+    <h1 class="mb-3 text-center" style="margin-top: 25px;"> Posts by {{ view.kwargs.username }} ({{ page_obj.paginator.count }})</h1>
     {% for post in posts %}
-        <article class="media content-section">
+        <article class="media content-section mt-4">
           <img class = 'rounded-circle article-img' src="{{ post.author.profile.image.url }}">
           <div class="media-body">
             <div class="article-metadata">
               <a class="mr-2" href="{% url 'blog:user-posts' post.author.username %}">{{ post.author }}</a>
               <small class="text-muted">{{ post.date_posted|date:"F d, Y" }}</small>
             </div>
-            <h2><a class="article-title" href="{% url 'blog:post_detail' post.id %}">{{ post.title }}</a></h2>
-            <p class="article-content">{{ post.content }}</p>
+            <h2><a class="article-title" href="{% url 'blog:post_detail' slug=post.slug pk=post.id %}">{{ post.title }}</a></h2>
+            <p class="article-content">{{ post.content|safe }}</p>
           </div>
         </article>
     {% endfor %}
