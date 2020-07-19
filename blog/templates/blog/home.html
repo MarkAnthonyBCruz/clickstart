@@ -10,7 +10,8 @@
                     <small class="text-muted">{{ post.date_posted|date:"F d, Y" }}</small>
                 </div>
                 <div class="container">
-                    <h2><a class="article-title" href="{% url 'blog:post_detail' slug=post.slug pk=post.id %}">{{ post.title }}</a></h2>
+                    <h2><a class="article-title"
+                           href="{% url 'blog:post_detail' slug=post.slug pk=post.id %}">{{ post.title }}</a></h2>
                     <i class="fa fa-list-alt" aria-hidden="true"></i> Category: {{ post.category }}<br>
                     <i class="fa fa-tag" aria-hidden="true"></i> Tags:
                     {% for tags in post.tag.all %}
@@ -26,6 +27,7 @@
                     {% endif %}
 
                     <p class="article-content mt-4">{{ post.content|safe }}</p>
+
                 </div>
             </div>
         </article>
