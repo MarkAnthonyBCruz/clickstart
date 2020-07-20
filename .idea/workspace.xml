@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="feafc1e2-3587-4fc2-9a7c-b1671b55f9e0" name="Default Changelist" comment="Added Metatags">
+    <list default="true" id="feafc1e2-3587-4fc2-9a7c-b1671b55f9e0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/templates/base/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/base/base.html" afterDir="false" />
     </list>
@@ -196,7 +196,7 @@
       <workItem from="1595041928183" duration="1993000" />
       <workItem from="1595058831957" duration="4950000" />
       <workItem from="1595138959703" duration="9078000" />
-      <workItem from="1595222819378" duration="1487000" />
+      <workItem from="1595222819378" duration="1879000" />
     </task>
     <task id="LOCAL-00001" summary="Changed URL">
       <created>1594636358312</created>
@@ -443,7 +443,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595150789067</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Added Metatags">
+      <created>1595225867901</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1595225867901</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -451,7 +458,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Settings changed" />
     <MESSAGE value="Settings changed 2" />
     <MESSAGE value="Small change" />
     <MESSAGE value="Added Hikvision support in base html" />
@@ -476,7 +482,8 @@
     <MESSAGE value="Fixed Comment Section" />
     <MESSAGE value="Added Sitemaps" />
     <MESSAGE value="Added Google Tag" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Google Tag" />
+    <MESSAGE value="Added Metatags" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Metatags" />
   </component>
   <component name="WindowStateProjectService">
     <state x="679" y="126" key="#BlogApp" timestamp="1594546843462">
@@ -506,10 +513,10 @@
     </state>
     <state x="445" y="254" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.738@0.0.1366.738" timestamp="1592825050381" />
     <state x="445" y="264" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.768@0.0.1366.768" timestamp="1590749731453" />
-    <state x="658" y="80" width="970" height="804" key="CommitChangelistDialog2" timestamp="1595225777349">
+    <state x="658" y="80" width="970" height="804" key="CommitChangelistDialog2" timestamp="1595225859727">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="658" y="80" width="970" height="804" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1595225777349" />
+    <state x="658" y="80" width="970" height="804" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1595225859727" />
     <state x="0" y="126" width="1536" height="861" key="DiffContextDialog" timestamp="1595145114527">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -554,10 +561,10 @@
     <state x="170" y="28" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1591588503116" />
     <state x="170" y="40" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1589954220018" />
     <state x="436" y="147" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1594973804250" />
-    <state x="539" y="281" key="Vcs.Push.Dialog.v2" timestamp="1595150797911">
+    <state x="539" y="281" key="Vcs.Push.Dialog.v2" timestamp="1595225878276">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="539" y="281" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1595150797911" />
+    <state x="539" y="281" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1595225878276" />
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1594972679566">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
