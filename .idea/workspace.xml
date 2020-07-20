@@ -2,34 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="feafc1e2-3587-4fc2-9a7c-b1671b55f9e0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/blog/static/blog/images/projects/eric/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/static/blog/images/projects/eric/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/static/blog/images/projects/eric/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/static/blog/images/projects/eric/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/static/blog/images/projects/eric/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/static/blog/images/projects/eric/6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/static/blog/images/projects/eric/7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/static/blog/images/projects/eric/8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/static/blog/images/projects/lux/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/static/blog/images/projects/lux/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/static/blog/images/projects/lux/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/static/blog/images/projects/lux/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/static/blog/images/projects/lux/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/static/blog/images/projects/lux/6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/static/blog/images/projects/lux/7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/static/blog/images/projects/toper/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/static/blog/images/projects/toper/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/static/blog/images/projects/toper/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/static/blog/images/projects/toper/4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/static/blog/images/projects/toper/5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/static/blog/images/projects/toper/6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/static/blog/images/projects/toper/7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/static/blog/images/projects/toper/8.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/static/blog/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/blog/static/blog/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/templates/blog/projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog/projects.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/templates/base/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/base/base.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -223,7 +197,7 @@
       <workItem from="1595058831957" duration="4950000" />
       <workItem from="1595138959703" duration="9078000" />
       <workItem from="1595222819378" duration="3325000" />
-      <workItem from="1595241314953" duration="3999000" />
+      <workItem from="1595241314953" duration="4258000" />
     </task>
     <task id="LOCAL-00001" summary="Changed URL">
       <created>1594636358312</created>
@@ -498,7 +472,21 @@
       <option name="project" value="LOCAL" />
       <updated>1595242199638</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="Added project images and page.">
+      <created>1595245427100</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1595245427100</updated>
+    </task>
+    <task id="LOCAL-00041" summary="Added projects link to About">
+      <created>1595245589205</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1595245589205</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -506,7 +494,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Fixed blog title and content" />
     <MESSAGE value="Updated blank links" />
     <MESSAGE value="Updated blank links 2" />
     <MESSAGE value="Removed Newsletter element" />
@@ -531,7 +518,8 @@
     <MESSAGE value="Made Maps in contact us responsive." />
     <MESSAGE value="Adjusted maps bottom margin." />
     <MESSAGE value="Added project images and page." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added project images and page." />
+    <MESSAGE value="Added projects link to About" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added projects link to About" />
   </component>
   <component name="WindowStateProjectService">
     <state x="679" y="126" key="#BlogApp" timestamp="1594546843462">
@@ -561,10 +549,10 @@
     </state>
     <state x="445" y="254" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.738@0.0.1366.738" timestamp="1592825050381" />
     <state x="445" y="264" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.768@0.0.1366.768" timestamp="1590749731453" />
-    <state x="658" y="80" width="970" height="804" key="CommitChangelistDialog2" timestamp="1595245417545">
+    <state x="658" y="80" width="970" height="804" key="CommitChangelistDialog2" timestamp="1595245587947">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="658" y="80" width="970" height="804" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1595245417545" />
+    <state x="658" y="80" width="970" height="804" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1595245587947" />
     <state x="0" y="126" width="1536" height="861" key="DiffContextDialog" timestamp="1595145114527">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -609,10 +597,10 @@
     <state x="170" y="28" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1591588503116" />
     <state x="170" y="40" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1589954220018" />
     <state x="436" y="147" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1594973804250" />
-    <state x="539" y="281" key="Vcs.Push.Dialog.v2" timestamp="1595245474621">
+    <state x="539" y="281" key="Vcs.Push.Dialog.v2" timestamp="1595245594861">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="539" y="281" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1595245474621" />
+    <state x="539" y="281" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1595245594861" />
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1594972679566">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
