@@ -27,6 +27,9 @@ def home(request):
 def services(request):
     return render(request, 'blog/services.html')
 
+def projects(request):
+    return render(request, 'blog/projects.html')
+
 class PostListView(ListView):
     model = Post
     template_name = 'blog/home.html'

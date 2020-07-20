@@ -14,7 +14,8 @@ urlpatterns = [
     path('about/', views.about, name = 'blog-about'),
     path('services/', views.services, name='services'),
     path('contact/', views.contact, name = 'blog-contact'),
-    path('search/', SearchListView.as_view(), name = 'search')
+    path('search/', SearchListView.as_view(), name='search'),
+    path('projects/', views.projects, name='blog-projects')
 ]
 
 # <app>/<model>_<viewtype>.html
