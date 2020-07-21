@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+{% extends 'base/landingbase.html' %}
+{% load static %}
+{% block content %}
+    <div id="secondcon2" class="container-fluid">
+        <div id="servicerow" class="row justify-content-center">
+            <div class="card text-center">
+                <div id="services2" class="card-body text-center">
+
+                    <h1 id="catcher">Be the eyes and ears in everything that matters.</h1>
+                    <hr>
+                    <h5 id="below" class="text-center">As technology and business methods advance more than ever,
+                        security becomes a
+                        necessity for everybody and everything.<br><br>
+                        We at Clickstart CCTV makes it easier for you to ensure that safety is accessible.</h5>
+                </div>
+            </div>
+            <div class="card text-center">
+                <div id="services1" class="card-body">
+                    <img id="sec" src="{% static 'blog/images/landing/security.png' %}">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container text-center">
+        <h2 id="catcher" style="margin-top: 60px;" class="text-center">Get a Quote!</h2>
+         <h5 id="below" class="text-center">Contact us by pressing the middle button below, and get a customized quotation from us depending on your requirements.</h5>
+        <div class="row justify-content-center">
+            <a id="but" class="btn btn-info btn-lg text-center" href="{% url 'blog:blog-home' %}"
+               style="color:white;">Our Blog</a>
+            <a id="but" class="btn btn-primary btn-lg text-center" href="{% url 'blog:blog-contact' %}"
+               style="color:white;">Contact Us Here</a>
+            <a id="but" class="btn btn-danger btn-lg text-center" href="{% url 'newsapp:news_home' %}"
+               style="color:white;">The Newsroom</a>
+        </div>
+    </div>
+
+    <div class="container text-center" style="margin-top: 150px; margin-bottom: 80px;">
+        <div class="row justify-content-center">
+            <img id="products1" src="{% static 'blog/images/landing/hikvision.png' %}">
+            <img id="products" src="{% static 'blog/images/landing/dahua.png' %}">
+            <img id="products" src="{% static 'blog/images/landing/zkteco.png' %}">
+            <img id="products1" src="{% static 'blog/images/landing/ubiquiti.png' %}">
+        </div>
+    </div>
+    <hr size="3">
+
+
+    <div id="secondcon" class="container-fluid">
+        <h1 id="catcher" class="text-center">This is how we work.</h1>
+        <h5 id="below" class="text-center">Security Redefined.</h5>
+        <div id="servicerow" class="row justify-content-center">
+            <div class="card text-center">
+                <div id="services" class="card-body text-center">
+                    <img id="serviceimage" src="{% static 'blog/images/services/customized.png' %}">
+                    <h2 id="servicetext">Customized Requirements</h2>
+                    <p id="servicesmall">We are more than eager to meet the client's every need and requirement, from
+                        method of installation and schedule to materials.</p>
+                </div>
+            </div>
+            <div class="card text-center">
+                <div id="services" class="card-body">
+                    <img id="serviceimage" src="{% static 'blog/images/services/delivery.png' %}">
+                    <h2 id="servicetext">Quality Materials</h2>
+                    <p id="servicesmall">The materials used for installation of cameras are handpicked to ensure
+                        efficiency and quality.</p>
+                </div>
+            </div>
+
+            <div class="card text-center">
+                <div id="services" class="card-body">
+                    <img id="serviceimage" src="{% static 'blog/images/services/highquality.png' %}">
+                    <h2 id="servicetext">Outstanding Service</h2>
+                    <p>Every step we take is scrutinized so that we can achieve the desired results
+                        of
+                        the client.</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div id="servicerow" class="row justify-content-center">
+
+            <div class="card text-center">
+                <div id="services" class="card-body">
+                    <img id="serviceimage" src="{% static 'blog/images/services/highvalue.png' %}">
+                    <h2 id="servicetext">Value for Money</h2>
+                    <p id="servicesmall">We make sure that every penny you spend is matched to the best and suitable
+                        CCTV
+                        cameras and services that we offer.</p>
+                </div>
+
+            </div>
+            <div class="card text-center">
+                <div id="services" class="card-body">
+                    <img id="serviceimage" src="{% static 'blog/images/services/support.png' %}">
+                    <h2 id="servicetext">Long-Term Warranty</h2>
+                    <p id="servicesmall">We provide one-year warranty to make sure that you're covered in every problem
+                        that might arise.</p>
+                </div>
+            </div>
+
+            <div class="card text-center">
+                <div id="services" class="card-body">
+                    <img id="serviceimage" src="{% static 'blog/images/services/cloud.png' %}">
+                    <h2 id="servicetext">Anytime, Anywhere</h2>
+                    <p id="servicesmall">The CCTV cameras are your eyes and ears, and you can see and hear them in a
+                        simple touch on a viewing app in your smartphone!</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    </div>
+{% endblock %}
+</html>

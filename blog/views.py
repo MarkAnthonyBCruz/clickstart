@@ -24,6 +24,9 @@ def home(request):
     }
     return render(request, 'blog/home.html', context)
 
+def landing(request):
+    return render(request, 'blog/landing.html')
+
 def services(request):
     return render(request, 'blog/services.html')
 

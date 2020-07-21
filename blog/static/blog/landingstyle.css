@@ -1,0 +1,208 @@
+body {
+
+    color: #333333;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #444444;
+}
+
+ul {
+    margin: 0;
+}
+
+#catcher {
+	font-family: 'Fredoka One', sans-serif;
+
+}
+
+
+#products {
+	width: 20%;
+	height: 20%;
+	display: block;
+    margin: 0 auto;
+}
+#products1 {
+	width: 20%;
+	height: 20%;
+	display: block;
+    margin: 0 auto;
+	margin-top: 20px;
+}
+
+#firstcontainer {
+	margin-top: 200px;
+
+
+}
+
+#sec {
+	height:80%;
+	width: 80%;
+}
+
+#below {
+	margin-top: 25px;
+	font-family: 'Muli', sans-serif;
+	font-weight: bold;
+	text-align:justify;
+
+}
+
+banner {
+	display:inline-block;
+}
+.bg-steel {
+    background-color: orange;
+}
+
+.site-header .navbar-nav .nav-link {
+
+    color: #ffffff;
+    font-family: 'Muli', sans-serif;
+
+}
+
+.site-header .navbar-nav .nav-link:hover {
+    color: #ffffff;
+}
+
+.site-header .navbar-nav .nav-link.active {
+    font-weight: 500;
+}
+
+#footerimg{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+
+}
+
+.footer-bs {
+    background-color: orange;
+	padding: 60px 40px;
+	color: white;
+    margin-top: 90px;
+	margin-bottom: 20px;
+	border-bottom-right-radius: 6px;
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 6px;
+}
+.footer-bs .footer-brand, .footer-bs .footer-nav, .footer-bs .footer-social, .footer-bs .footer-ns { padding:10px 25px; }
+.footer-bs .footer-nav, .footer-bs .footer-social, .footer-bs .footer-ns { border-color: transparent; }
+.footer-bs .footer-brand h2 { margin:0px 0px 10px; }
+.footer-bs .footer-brand p { font-size:12px; color:rgba(255,255,255,0.70); }
+
+.footer-bs .footer-nav ul.pages { list-style:none; padding:0px; }
+.footer-bs .footer-nav ul.pages li { padding:5px 0px;}
+.footer-bs .footer-nav ul.pages a { color:rgba(255,255,255,1.00); font-weight:bold; text-transform:uppercase; }
+.footer-bs .footer-nav ul.pages a:hover { color:rgba(255,255,255,0.80); text-decoration:none; }
+.footer-bs .footer-nav h4 {
+	font-size: 11px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	margin-bottom:10px;
+
+}
+
+.footer-bs .footer-nav ul.list { list-style:none; padding:0px; }
+.footer-bs .footer-nav ul.list li { padding:5px 0px;}
+.footer-bs .footer-nav ul.list a { color:rgba(255,255,255,0.80); }
+.footer-bs .footer-nav ul.list a:hover { color:rgba(255,255,255,0.60); text-decoration:none; }
+
+.footer-bs .footer-social ul { list-style:none; padding:0px; }
+.footer-bs .footer-social h4 {
+	font-size: 11px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+}
+.footer-bs .footer-social li { padding:5px 4px;}
+.footer-bs .footer-social a { color:rgba(255,255,255,1.00);}
+.footer-bs .footer-social a:hover { color:rgba(255,255,255,0.80); text-decoration:none; }
+
+.footer-bs .footer-ns h4 {
+	font-size: 11px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	margin-bottom:10px;
+}
+.footer-bs .footer-ns p { font-size:12px; color:rgba(255,255,255,0.70); }
+
+@media (min-width: 768px) {
+	.footer-bs .footer-nav, .footer-bs .footer-social, .footer-bs .footer-ns { border-left:solid 1px rgba(255,255,255,0.10); }
+}
+
+#biggie {
+	width: 75%;
+	height: 75%;
+	display:inline-block;
+}
+
+
+#services {
+
+	width: 500px;
+	height: 500px;
+	display: block;
+
+
+}
+
+#services2 {
+	margin-top: 120px;
+	width: 500px;
+	height: 500px;
+	display: block;
+
+
+}
+
+
+#services1{
+
+}
+
+#but {
+	margin-top: 50px;
+	margin-right: 20px;
+	margin-left: 5px;
+}
+
+.card {
+	border-color:white;
+}
+
+
+
+#servicerow {
+	margin-top: 70px;
+}
+
+#secondcon {
+	margin-top: 200px;
+}
+
+#secondcon2 {
+	margin-top: 200px;
+
+}
+
+
+#serviceimage {
+	width: 200px;
+	height: 200px;
+
+}
+
+#servicetext {
+	margin-top: 30px;
+	text-align:center;
+}
+
+#servicesmall {
+	text-align:center;
+}

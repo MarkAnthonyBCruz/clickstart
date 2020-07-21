@@ -2,8 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="feafc1e2-3587-4fc2-9a7c-b1671b55f9e0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/images/landing/banner_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/images/landing/dahua.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/images/landing/hikvision.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/images/landing/isometric.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/images/landing/security.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/images/landing/ubiquiti.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/images/landing/zkteco.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/landingstyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/templates/base/landingbase.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/templates/blog/landing.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/sitemaps.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/sitemaps.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/templates/base/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/base/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newsapp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/newsapp/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,8 +65,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="Python Script" />
+        <option value="CSS File" />
         <option value="HTML File" />
       </list>
     </option>
@@ -81,24 +95,24 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../BlogNew" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/blog/static/blog/images/landing" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="run.code.analysis.last.selected.profile" value="aDefault" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Mark Cruz\PycharmProjects\BlogApp\blog\static\blog\images" />
-      <recent name="C:\Users\Mark Cruz\PycharmProjects\BlogApp\media" />
-      <recent name="C:\Users\Mark Cruz\PycharmProjects\BlogApp\blog\static\blog" />
-      <recent name="C:\Users\user\PycharmProjects\BlogApp\blog\static\blog\images" />
-      <recent name="C:\Users\user\PycharmProjects\BlogApp\blog\static\blog" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Mark Cruz\PycharmProjects\BlogApp\blog\static\blog\images" />
       <recent name="C:\Users\user\PycharmProjects\BlogApp\blog\static\blog\images" />
       <recent name="C:\Users\user\PycharmProjects\BlogApp\media" />
       <recent name="C:\Users\user\PycharmProjects\BlogApp\blog\templates\base" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Mark Cruz\PycharmProjects\BlogApp\blog\static\blog\images\landing" />
+      <recent name="C:\Users\Mark Cruz\PycharmProjects\BlogApp\blog\static\blog\images" />
+      <recent name="C:\Users\Mark Cruz\PycharmProjects\BlogApp\media" />
+      <recent name="C:\Users\Mark Cruz\PycharmProjects\BlogApp\blog\static\blog" />
+      <recent name="C:\Users\user\PycharmProjects\BlogApp\blog\static\blog\images" />
     </key>
   </component>
   <component name="RunManager">
@@ -197,7 +211,8 @@
       <workItem from="1595058831957" duration="4950000" />
       <workItem from="1595138959703" duration="9078000" />
       <workItem from="1595222819378" duration="3325000" />
-      <workItem from="1595241314953" duration="4258000" />
+      <workItem from="1595241314953" duration="4966000" />
+      <workItem from="1595315116300" duration="17315000" />
     </task>
     <task id="LOCAL-00001" summary="Changed URL">
       <created>1594636358312</created>
@@ -486,7 +501,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595245589205</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="Fixed about">
+      <created>1595245687366</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1595245687366</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -494,7 +516,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Updated blank links" />
     <MESSAGE value="Updated blank links 2" />
     <MESSAGE value="Removed Newsletter element" />
     <MESSAGE value="Added Google visibility" />
@@ -519,7 +540,8 @@
     <MESSAGE value="Adjusted maps bottom margin." />
     <MESSAGE value="Added project images and page." />
     <MESSAGE value="Added projects link to About" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added projects link to About" />
+    <MESSAGE value="Fixed about" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed about" />
   </component>
   <component name="WindowStateProjectService">
     <state x="679" y="126" key="#BlogApp" timestamp="1594546843462">
@@ -549,10 +571,10 @@
     </state>
     <state x="445" y="254" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.738@0.0.1366.738" timestamp="1592825050381" />
     <state x="445" y="264" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.768@0.0.1366.768" timestamp="1590749731453" />
-    <state x="658" y="80" width="970" height="804" key="CommitChangelistDialog2" timestamp="1595245587947">
+    <state x="658" y="80" width="970" height="804" key="CommitChangelistDialog2" timestamp="1595245686160">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="658" y="80" width="970" height="804" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1595245587947" />
+    <state x="658" y="80" width="970" height="804" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1595245686160" />
     <state x="0" y="126" width="1536" height="861" key="DiffContextDialog" timestamp="1595145114527">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -563,30 +585,30 @@
     <state x="447" y="134" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1591791464435" />
     <state x="447" y="139" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1591445636495" />
     <state x="628" y="189" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1595244990555" />
-    <state width="1877" height="237" key="GridCell.Tab.0.bottom" timestamp="1595245234670">
+    <state width="1877" height="237" key="GridCell.Tab.0.bottom" timestamp="1595246385970">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="174" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1594541881320" />
     <state width="1323" height="184" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1591447604906" />
-    <state width="1877" height="237" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1595245234670" />
-    <state width="1877" height="237" key="GridCell.Tab.0.center" timestamp="1595245234669">
+    <state width="1877" height="237" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1595246385970" />
+    <state width="1877" height="237" key="GridCell.Tab.0.center" timestamp="1595246385969">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="174" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1594541881319" />
     <state width="1323" height="184" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1591447604906" />
-    <state width="1877" height="237" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1595245234669" />
-    <state width="1877" height="237" key="GridCell.Tab.0.left" timestamp="1595245234668">
+    <state width="1877" height="237" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1595246385969" />
+    <state width="1877" height="237" key="GridCell.Tab.0.left" timestamp="1595246385969">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="174" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1594541881318" />
     <state width="1323" height="184" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1591447604906" />
-    <state width="1877" height="237" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1595245234668" />
-    <state width="1877" height="237" key="GridCell.Tab.0.right" timestamp="1595245234670">
+    <state width="1877" height="237" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1595246385969" />
+    <state width="1877" height="237" key="GridCell.Tab.0.right" timestamp="1595246385970">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="174" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1594541881319" />
     <state width="1323" height="184" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1591447604906" />
-    <state width="1877" height="237" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1595245234670" />
+    <state width="1877" height="237" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1595246385970" />
     <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1590299831509">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -597,20 +619,20 @@
     <state x="170" y="28" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1591588503116" />
     <state x="170" y="40" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1589954220018" />
     <state x="436" y="147" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1594973804250" />
-    <state x="539" y="281" key="Vcs.Push.Dialog.v2" timestamp="1595245594861">
+    <state x="539" y="281" key="Vcs.Push.Dialog.v2" timestamp="1595245693043">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="539" y="281" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1595245594861" />
+    <state x="539" y="281" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1595245693043" />
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1594972679566">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1594972679566" />
-    <state x="744" y="367" key="com.intellij.ide.util.TipDialog" timestamp="1595241536948">
+    <state x="744" y="367" key="com.intellij.ide.util.TipDialog" timestamp="1595315147514">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="529" y="266" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1594538709621" />
     <state x="529" y="277" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1591443895619" />
-    <state x="744" y="367" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1595241536948" />
+    <state x="744" y="367" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1595315147514" />
     <state x="582" y="221" width="1354" height="763" key="dock-window-1" timestamp="1595144456861">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

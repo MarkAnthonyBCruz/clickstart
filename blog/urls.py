@@ -4,6 +4,7 @@ from .views import PostListView, PostDetailView, PostCreateView, PostUpdateView,
 
 app_name = 'blog'
 urlpatterns = [
+    path('', views.landing, name='landing'),
     path('blog/', PostListView.as_view(), name= 'blog-home'),
     path('user/<str:username>', UserPostListView.as_view(), name= 'user-posts'),
     path('blog/post/<slug:slug>/<int:pk>/', PostDetailView.as_view(), name= 'post_detail'),
@@ -15,7 +16,8 @@ urlpatterns = [
     path('services/', views.services, name='services'),
     path('contact/', views.contact, name = 'blog-contact'),
     path('search/', SearchListView.as_view(), name='search'),
-    path('projects/', views.projects, name='blog-projects')
+    path('projects/', views.projects, name='blog-projects'),
+
 ]
 
 # <app>/<model>_<viewtype>.html

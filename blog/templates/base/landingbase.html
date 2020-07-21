@@ -1,19 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
 {% load static %}
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="google-site-verification" content="Emks-YLoot3OEzodAeA8ozXMkzPs6dmyx9qSco8ELz0"/>
-    <meta name="keywords" content="Clickstart, Click Start, clickstartCCTV, clickstartcctv, clickstart cctv, cctv, CCTV, cctv camera istallation, cctv installation, installation, camera installation, cctv installation near laguna, cctv camera near laguna, cctv installation around laguna, service, cctv for sale, Laguna, laguna, security camera, security, cameras, camera, ncr, NCR, Metro Manila, cctv near metro manila, cctv around manila, camera business, cctv camera, cctv cameras, around Laguna, Installation, CCTV around Laguna, DVR, dvr, nvr, bullet camera, hikvision, Hikvision, dahua, zik, biometric system, system, biometrics, attendance, time and attendance, santa rosa laguna, cabuyao, calamba">
+    <meta name="keywords"
+          content="Clickstart, Click Start, clickstartCCTV, clickstartcctv, clickstart cctv, cctv, CCTV, cctv camera istallation, cctv installation, installation, camera installation, cctv installation near laguna, cctv camera near laguna, cctv installation around laguna, service, cctv for sale, Laguna, laguna, security camera, security, cameras, camera, ncr, NCR, Metro Manila, cctv near metro manila, cctv around manila, camera business, cctv camera, cctv cameras, around Laguna, Installation, CCTV around Laguna, DVR, dvr, nvr, bullet camera, hikvision, Hikvision, dahua, zik, biometric system, system, biometrics, attendance, time and attendance, santa rosa laguna, cabuyao, calamba">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Zilla+Slab" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Teko" rel="stylesheet">
@@ -22,8 +25,6 @@
     <link rel="shortcut icon" href="{% static 'blog/images/favicon.ico' %}">
     <script src="https://cdn.tiny.cloud/1/4uo76d4wgycsi3tr3xqkyrpzlm401b9t5op28iiewjvm8d3w/tinymce/5/tinymce.min.js"
             referrerpolicy="origin"></script>
-    <script>tinymce.init({selector: "textarea:not(.mceNoEditor)", plugins: "image"});</script>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-172978446-1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
@@ -36,10 +37,6 @@
 
         gtag('config', 'UA-172978446-1');
     </script>
-    <script async defer crossorigin="anonymous"
-            src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v7.0&appId=607953923186783&autoLogAppEvents=1"
-            nonce="w1WVOZ4l"></script>
-
     <!--{% if title %}
         <title>Clickstart CCTV| {{ title }}</title>
 
@@ -50,11 +47,12 @@
 
     <title>Clickstart CCTV | {% block title %}{% endblock %}</title>
 
-    <link rel="stylesheet" href="{% static 'blog/main.css' %}">
+    <link rel="stylesheet" href="{% static 'blog/landingstyle.css' %}">
 
 </head>
-<!--<body style = 'background: #ffffff; background-image: url("{% static 'blog/images/walking-girl.png' %}"); background-repeat: no-repeat; background-position: bottom right; background-size: 50% 50%'>-->
+
 <body style='background: #ffffff;'>
+
 <header class="site-header">
     <nav class="navbar navbar-expand-md navbar-dark bg-steel fixed-top">
         <div class="container">
@@ -112,124 +110,8 @@
         </div>
     </nav>
 </header>
-<main role="main" class="container">
-    <div class="row">
-        <div class="col-md-8">
-            {% if messages %}
-                {% for message in messages %}
-                    <div class="alert alert-{{ message.tags }}">
-                        {{ message }}
-                    </div>
-                {% endfor %}
-            {% endif %}
-            {% block content %}{% endblock %}
-        </div>
-
-        <div class="col-md-4 mt-4">
-
-            <div class="content-section text-center">
-                <h4>Having trouble with your <strong>Hikvision Password</strong> and <strong>Remote Viewing through
-                    Mobile?</strong></h4>
-                <h5>We can help you with that!</h5>
-                <img src="https://img.icons8.com/clouds/2x/password-window.png"
-                     style="width: 120px; height: 120px;"></a>
-                <br>
-                <br>
-                <h4>Just call or text us at <strong>0932-171-2155</strong> for support!</h4>
-            </div>
-
-            <div class="content-section text-center">
-                <h2>Buy Us A Coffee!</h2>
-                <a target="_blank" href="https://paypal.me/allanpalma2019?locale.x=en_US">
-                    <img src="{% static 'blog/images/B8tfkG3s_400x400.jpg' %}" style="width: 80px; height: 80px;"></a>
-                <br>
-                <br>
-                <h5>If you are satisfied and happy with my website, you can support me for its improvement and to help
-                    the victims of Covid-19 around the world.</h5>
-            </div>
-
-            <div class="content-section text-center">
-                <center><h2 class="mt-2">Follow us!</h2></center>
-                <p>For the latest updates.</p>
-                <div class="row">
-                    <a href="https://www.facebook.com/clickstartcctv/" target="_blank"><img
-                            src="{% static 'blog/images/facebook.png' %}" id="soc"></a>
-                    <a href="https://twitter.com/clickstartcctv" target="_blank"><img
-                            src="{% static 'blog/images/twitter.png' %}" id="soc"></a>
-                    <a href="https://www.youtube.com/channel/UCBPEHyFfB6RXDetde5EU6Vw" target="_blank"><img
-                            src="{% static 'blog/images/youtube.png' %}" id="soc"></a>
-                    <a href="https://www.instagram.com/clickstartcctv/" target="_blank"><img
-                            src="{% static 'blog/images/instagram.png' %}" id="soc"></a>
-                </div>
-            </div>
-
-            <div class="content-section">
-                <a href="{% url 'newsapp:corona' %}">
-                    <center><h2>Coronavirus Cases</h2></center>
-                </a>
-                <center><h5>(As of {{ date|date:"F d, Y" }})</h5></center>
-                <div class="row">
-                    <p id="crona3">All Cases</p>
-                    <p id="crona3">Deaths</p>
-                    <p id="crona3">Recovered</p>
-                </div>
-                <div class="row">
-                    <img src="{% static 'blog/images/corona-virus.png' %}" id="crona2">
-                    <img src="{% static 'blog/images/death.png' %}" id="crona2">
-                    <img src="{% static 'blog/images/hospital.png' %}" id="crona2">
-                </div>
-                <div class="row">
-                    <p id="crona4">{{ all }}</p>
-                    <p id="crona4">{{ deaths }}</p>
-                    <p id="crona4">{{ recovered }}</p>
-                </div>
-            </div>
-
-            <div class="content-section text-center">
-                <h2>Weather for Today</h2>
-                <article class="media">
-                    <div class="media-left">
-                        <figure class="image is-50x50">
-                            <img src="http://openweathermap.org/img/w/{{ icon }}.png" alt="Image">
-                        </figure>
-                    </div>
-                    <div class="media-content">
-                        <div class="content">
-                            <!--<center><p>
-                                <span class="title">{{ city }}</span>
-                                <br>
-                                <span class="subtitle">{{ temperature }}</span>
-                                <br> {{ description }}
-                            </p></center>-->
-                            <h3 class="ml-2">{{ date|date:"F d, Y" }}</h3>
-                            {{ value|linebreaks }}
-                            <h3 class="ml-2">{{ city }}</h3>
-                            <h3 class="ml-2">{{ temperature }}</h3>
-                            <h3 class="ml-2"> {{ description }} </h3>
-                        </div>
-                </article>
-            </div>
-
-            <div class="content-section">
-                <h3>The News Emporium</h3>
-                <p class='text-muted'>Bored? You can browse for the hottest headlines from different sources here.
-                <ul class="list-group">
-                    <li class="list-group-item list-group-item-light"><a
-                            href="{% url 'newsapp:news_home' %}">Engadget</a></li>
-                    <li class="list-group-item list-group-item-light"><a href="{% url 'newsapp:bbc' %}">BBC News</a>
-                    </li>
-                    <li class="list-group-item list-group-item-light"><a href="{% url 'newsapp:wsj' %}">The Wall Street
-                        Journal</a></li>
-                    <li class="list-group-item list-group-item-light"><a href="{% url 'newsapp:corona' %}">Coronavirus
-                        Cases</a></li>
-                    <!--<li class="list-group-item list-group-item-light">etc</li>-->
-                </ul>
-                </p>
-            </div>
-        </div>
-    </div>
-</main>
-
+{% block content %}
+{% endblock %}
 <!----------- Footer ------------>
 <footer class="footer-bs">
     <div class="row">
@@ -276,7 +158,6 @@
             </ul>
         </div>
 
-
         <!--<div class="col-md-3 footer-ns animated fadeInRight">
             <h4>Newsletter</h4>
             <p>A rover wearing a fuzzy suit doesn’t alarm the real penguins</p>
@@ -307,4 +188,5 @@
         crossorigin="anonymous"></script>
 
 </body>
+
 </html>
