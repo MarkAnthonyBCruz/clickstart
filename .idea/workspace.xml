@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="feafc1e2-3587-4fc2-9a7c-b1671b55f9e0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/static/blog/landingstyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/blog/static/blog/landingstyle.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/templates/blog/landing.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog/landing.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -200,14 +199,7 @@
       <workItem from="1595222819378" duration="3325000" />
       <workItem from="1595241314953" duration="4966000" />
       <workItem from="1595315116300" duration="21535000" />
-      <workItem from="1595384332362" duration="4473000" />
-    </task>
-    <task id="LOCAL-00003" summary="CSS change">
-      <created>1594637365577</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1594637365577</updated>
+      <workItem from="1595384332362" duration="4772000" />
     </task>
     <task id="LOCAL-00004" summary="heroku push">
       <created>1594637551754</created>
@@ -545,7 +537,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595337487725</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="Responsive Edit">
+      <created>1595388952558</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1595388952698</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -553,7 +552,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Added Social Media Functionality." />
     <MESSAGE value="Freeze" />
     <MESSAGE value="Added Excluded Migrations" />
     <MESSAGE value="Added Title" />
@@ -578,7 +576,8 @@
     <MESSAGE value="Minor edits 4" />
     <MESSAGE value="Minor edits 5" />
     <MESSAGE value="Minor edits 6" />
-    <option name="LAST_COMMIT_MESSAGE" value="Minor edits 6" />
+    <MESSAGE value="Responsive Edit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Responsive Edit" />
   </component>
   <component name="WindowStateProjectService">
     <state x="679" y="126" key="#BlogApp" timestamp="1594546843462">
@@ -656,10 +655,10 @@
     <state x="170" y="28" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1591588503116" />
     <state x="170" y="40" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1589954220018" />
     <state x="436" y="147" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1594973804250" />
-    <state x="539" y="281" key="Vcs.Push.Dialog.v2" timestamp="1595337513340">
+    <state x="539" y="281" key="Vcs.Push.Dialog.v2" timestamp="1595388971096">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="539" y="281" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1595337513340" />
+    <state x="539" y="281" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1595388971096" />
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1594972679566">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
