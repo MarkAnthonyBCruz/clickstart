@@ -3,30 +3,35 @@
 {% extends 'base/landingbase.html' %}
 {% load static %}
 {% block content %}
-    <div class="container-fluid">
-    <div id="secondcon2" class="container-fluid text-center">
-        <div id="servicerow2" class="row justify-content-center">
-            <div class="card text-center">
-                <div id="services2" class="card-body text-center">
-                    <h2 id="catcher">Be the eyes and ears in everything that matters.</h2>
-                    <hr>
-                    <h5 id="below" class="text-center">As technology and business methods advance more than ever,
-                        security becomes a
-                        necessity for everybody and everything.<br><br>
-                        We at Clickstart CCTV makes it easier for you to ensure that safety is accessible.</h5>
+    <div id="secondcon2" class="container text-center">
+        <div class="row justify-content-center">
+            <div class="col-md-5">
+                <div class="card">
+                    <div id="services" class="card-body">
+                        <h2 id="catcher">Be the eyes and ears in everything that matters.</h2>
+                        <hr>
+                        <h5 id="below" class="text-center">As technology and business methods advance more than ever,
+                            security becomes a
+                            necessity for everybody and everything.<br><br>
+                            We at Clickstart CCTV makes it easier for you to ensure that safety is accessible.</h5>
+                    </div>
                 </div>
             </div>
-            <div class="card text-center">
-                <div id="services1" class="card-body">
-                    <img id="sec" src="{% static 'blog/images/landing/security.png' %}">
+            <div class="col-md-5">
+                <div class="card">
+                    <div id="services" class="card-body">
+                        <img id="sec" src="{% static 'blog/images/landing/security.png' %}">
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 
+
     <div class="container-fluid text-center">
         <h2 id="catcher" style="margin-top: 60px;" class="text-center">Get a Quote!</h2>
-         <h5 id="below" class="text-center">Contact us by pressing the middle button below, and get a customized quotation from us depending on your requirements.</h5>
+        <h5 id="below" class="text-center">Contact us by pressing the middle button below, and get a customized
+            quotation from us depending on your requirements.</h5>
         <div class="row justify-content-center">
             <a id="but" class="btn btn-info btn-lg text-center" href="{% url 'blog:blog-home' %}"
                style="color:white;">Our Blog</a>
@@ -47,72 +52,75 @@
     </div>
     <hr size="3">
 
-    <div id="secondcon" class="container-fluid text-center">
+    <div class="container-fluid text-center">
         <h1 id="catcher" class="text-center">This is how we work.</h1>
         <h5 id="below" class="text-center">Security Redefined.</h5>
-        <div id="servicerow" class="row justify-content-center">
-
-            <div class="card text-center">
-                <div id="services" class="card-body text-center">
-                    <img id="serviceimage" src="{% static 'blog/images/services/customized.png' %}">
-                    <h3 id="servicetext">Customized Requirements</h3>
-                    <p id="servicesmall">We are more than eager to meet the client's every need and requirement, from
-                        method of installation and schedule to materials.</p>
+        <div class="row justify-content-center">
+            <div class="col-sm-4">
+                <div class="card">
+                    <div id="services" class="card-body">
+                        <img id="serviceimage" src="{% static 'blog/images/services/customized.png' %}">
+                        <h2 class="text-center">Customized Requirements</h2>
+                        <p class="text-center">We are more than eager to meet the client's every need and requirement,
+                            from
+                            method of installation and schedule to materials.</p>
+                    </div>
                 </div>
             </div>
-            <div class="card text-center">
-                <div id="services" class="card-body">
-                    <img id="serviceimage" src="{% static 'blog/images/services/delivery.png' %}">
-                    <h3 id="servicetext">Quality Materials</h3>
-                    <p id="servicesmall">The materials used for installation of cameras are handpicked to ensure
-                        efficiency and quality.</p>
+            <div class="col-sm-4">
+                <div class="card">
+                    <div id="services" class="card-body">
+                        <img id="serviceimage" src="{% static 'blog/images/services/delivery.png' %}">
+                        <h2>Quality Materials</h2>
+                        <p>The materials used for installation of cameras are handpicked to ensure
+                            efficiency and quality.</p>
+                    </div>
                 </div>
             </div>
-
-            <div class="card text-center">
-                <div id="services" class="card-body">
-                    <img id="serviceimage" src="{% static 'blog/images/services/highquality.png' %}">
-                    <h3 id="servicetext">Outstanding Service</h3>
-                    <p>Every step we take is scrutinized so that we can achieve the desired results
-                        of
-                        the client.</p>
+            <div class="col-sm-4">
+                <div class="card">
+                    <div id="services" class="card-body">
+                        <img id="serviceimage" src="{% static 'blog/images/services/highquality.png' %}">
+                        <h2>Outstanding Service</h2>
+                        <p>Every step we take is scrutinized so that we can achieve the desired results
+                            of
+                            the client. </p>
+                    </div>
                 </div>
             </div>
-
-        </div>
-
-        <div id="servicerow" class="row justify-content-center">
-
-            <div class="card text-center">
-                <div id="services" class="card-body">
-                    <img id="serviceimage" src="{% static 'blog/images/services/highvalue.png' %}">
-                    <h3 id="servicetext">Value for Money</h3>
-                    <p id="servicesmall">We make sure that every penny you spend is matched to the best and suitable
-                        CCTV
-                        cameras and services that we offer.</p>
+            <div class="col-sm-4">
+                <div class="card">
+                    <div id="services" class="card-body">
+                        <img id="serviceimage" src="{% static 'blog/images/services/highvalue.png' %}">
+                        <h2 class="text-center">Value for Money</h2>
+                        <p class="text-center">We make sure that every penny you spend is matched to the best and suitable
+                            CCTV
+                            cameras and services that we offer.</p>
+                    </div>
                 </div>
-
             </div>
-            <div class="card text-center">
-                <div id="services" class="card-body">
-                    <img id="serviceimage" src="{% static 'blog/images/services/support.png' %}">
-                    <h3 id="servicetext">Long-Term Warranty</h3>
-                    <p id="servicesmall">We provide one-year warranty to make sure that you're covered in every problem
+            <div class="col-sm-4">
+                <div class="card">
+                    <div id="services" class="card-body">
+                        <img id="serviceimage" src="{% static 'blog/images/services/support.png' %}">
+                        <h2>Long-Term Warranty</h2>
+                        <p>We provide one-year warranty to make sure that you're covered in every problem
                         that might arise.</p>
+                    </div>
                 </div>
             </div>
-
-            <div class="card text-center">
-                <div id="services" class="card-body">
-                    <img id="serviceimage" src="{% static 'blog/images/services/cloud.png' %}">
-                    <h3 id="servicetext">Anytime, Anywhere</h3>
-                    <p id="servicesmall">The CCTV cameras are your eyes and ears, and you can see and hear them in a
-                        simple touch on a viewing app in your smartphone!</p>
+            <div class="col-sm-4">
+                <div class="card">
+                    <div id="services" class="card-body">
+                        <img id="serviceimage" src="{% static 'blog/images/services/cloud.png' %}">
+                        <h2>Anytime, Anywhere</h2>
+                        <p>The CCTV cameras are your eyes and ears, and you can see and hear them in a
+                        simple touch on a viewing app in your smartphone! </p>
+                    </div>
                 </div>
             </div>
         </div>
+    </div>
 
-    </div>
-    </div>
 {% endblock %}
 </html>
