@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="feafc1e2-3587-4fc2-9a7c-b1671b55f9e0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/templates/blog/landing.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog/landing.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/templates/blog/contactus.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog/contactus.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -199,14 +199,7 @@
       <workItem from="1595222819378" duration="3325000" />
       <workItem from="1595241314953" duration="4966000" />
       <workItem from="1595315116300" duration="21535000" />
-      <workItem from="1595384332362" duration="4772000" />
-    </task>
-    <task id="LOCAL-00004" summary="heroku push">
-      <created>1594637551754</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1594637551754</updated>
+      <workItem from="1595384332362" duration="5909000" />
     </task>
     <task id="LOCAL-00005" summary="removed register">
       <created>1594638729961</created>
@@ -544,7 +537,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595388952698</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="Resized Logos">
+      <created>1595389297439</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1595389297439</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -552,7 +552,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Freeze" />
     <MESSAGE value="Added Excluded Migrations" />
     <MESSAGE value="Added Title" />
     <MESSAGE value="Removed Telegram share" />
@@ -577,7 +576,8 @@
     <MESSAGE value="Minor edits 5" />
     <MESSAGE value="Minor edits 6" />
     <MESSAGE value="Responsive Edit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Responsive Edit" />
+    <MESSAGE value="Resized Logos" />
+    <option name="LAST_COMMIT_MESSAGE" value="Resized Logos" />
   </component>
   <component name="WindowStateProjectService">
     <state x="679" y="126" key="#BlogApp" timestamp="1594546843462">
@@ -607,10 +607,10 @@
     </state>
     <state x="445" y="254" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.738@0.0.1366.738" timestamp="1592825050381" />
     <state x="445" y="264" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.768@0.0.1366.768" timestamp="1590749731453" />
-    <state x="658" y="80" width="970" height="804" key="CommitChangelistDialog2" timestamp="1595388938704">
+    <state x="658" y="80" width="970" height="804" key="CommitChangelistDialog2" timestamp="1595389296184">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="658" y="80" width="970" height="804" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1595388938704" />
+    <state x="658" y="80" width="970" height="804" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1595389296184" />
     <state x="0" y="126" width="1536" height="861" key="DiffContextDialog" timestamp="1595145114527">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -655,10 +655,10 @@
     <state x="170" y="28" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1591588503116" />
     <state x="170" y="40" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1589954220018" />
     <state x="436" y="147" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1594973804250" />
-    <state x="539" y="281" key="Vcs.Push.Dialog.v2" timestamp="1595388971096">
+    <state x="539" y="281" key="Vcs.Push.Dialog.v2" timestamp="1595389312437">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="539" y="281" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1595388971096" />
+    <state x="539" y="281" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1595389312437" />
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1594972679566">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
