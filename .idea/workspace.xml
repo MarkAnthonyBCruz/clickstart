@@ -3,13 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="feafc1e2-3587-4fc2-9a7c-b1671b55f9e0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlogApp/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/BlogApp/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/context_processors.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/context_processors.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/static/blog/images/landing/banner_bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/blog/static/blog/images/landing/banner_bg.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/static/blog/landingstyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/blog/static/blog/landingstyle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/templates/blog/landing.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog/landing.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/templates/blog/projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog/projects.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -207,14 +200,7 @@
       <workItem from="1595315116300" duration="21535000" />
       <workItem from="1595384332362" duration="6528000" />
       <workItem from="1595475846340" duration="2961000" />
-      <workItem from="1595489402262" duration="10168000" />
-    </task>
-    <task id="LOCAL-00007" summary="Settings changed">
-      <created>1594639603318</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1594639603318</updated>
+      <workItem from="1595489402262" duration="10376000" />
     </task>
     <task id="LOCAL-00008" summary="Settings changed 2">
       <created>1594639934674</created>
@@ -552,7 +538,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595478818626</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="Added blog to landing">
+      <created>1595500250455</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1595500250457</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -560,7 +553,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Added Title" />
     <MESSAGE value="Removed Telegram share" />
     <MESSAGE value="Added Tab Titles for visibility" />
     <MESSAGE value="Fixed Comment Section" />
@@ -585,7 +577,8 @@
     <MESSAGE value="Responsive Edit" />
     <MESSAGE value="Resized Logos" />
     <MESSAGE value="Changed fonts" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changed fonts" />
+    <MESSAGE value="Added blog to landing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added blog to landing" />
   </component>
   <component name="WindowStateProjectService">
     <state x="679" y="126" key="#BlogApp" timestamp="1594546843462">
@@ -615,10 +608,10 @@
     </state>
     <state x="445" y="254" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.738@0.0.1366.738" timestamp="1592825050381" />
     <state x="445" y="264" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.768@0.0.1366.768" timestamp="1590749731453" />
-    <state x="658" y="80" width="970" height="804" key="CommitChangelistDialog2" timestamp="1595500235767">
+    <state x="658" y="80" width="970" height="804" key="CommitChangelistDialog2" timestamp="1595500507520">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="658" y="80" width="970" height="804" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1595500235767" />
+    <state x="658" y="80" width="970" height="804" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1595500507520" />
     <state x="0" y="126" width="1536" height="861" key="DiffContextDialog" timestamp="1595145114527">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -663,10 +656,10 @@
     <state x="170" y="28" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1591588503116" />
     <state x="170" y="40" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1589954220018" />
     <state x="436" y="147" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1594973804250" />
-    <state x="539" y="281" key="Vcs.Push.Dialog.v2" timestamp="1595478856213">
+    <state x="539" y="281" key="Vcs.Push.Dialog.v2" timestamp="1595500292231">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="539" y="281" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1595478856213" />
+    <state x="539" y="281" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1595500292231" />
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1594972679566">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
