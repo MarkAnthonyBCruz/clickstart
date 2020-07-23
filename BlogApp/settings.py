@@ -78,7 +78,7 @@ TEMPLATES = [
                 'django.contrib.messages.context_processors.messages',
                 'blog.context_processors.weather',
                 'blog.context_processors.crona',
-                #'blog.context_processors.getcat',
+
             ],
         },
     },

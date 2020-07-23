@@ -8,7 +8,7 @@
             <div class="col-md-5">
                 <div class="card">
                     <div id="services" class="card-body">
-                        <h2 id="catcher" class="text-center">Be the eyes and ears in everything that matters.</h2>
+                        <h1 id="catcher" class="text-center">Be the eyes and ears in everything that matters.</h1>
                         <h5 id="below" class="text-center">As technology and business methods advance more than ever,
                             security becomes a
                             necessity for everybody and everything.<br><br>
@@ -28,7 +28,7 @@
 
 
     <div class="container text-center">
-        <h2 id="catcher" style="margin-top: 60px;" class="text-center">Get a Quote!</h2>
+        <h1 id="catcher" style="margin-top: 60px;" class="text-center">Get a Quote!</h1>
         <h5 id="below" class="text-center">Contact us by pressing the middle button below, and get a customized
             quotation from us depending on your requirements.</h5>
         <div class="row justify-content-center">
@@ -49,7 +49,6 @@
             <img id="products1" src="{% static 'blog/images/landing/ubiquiti.png' %}">
         </div>
     </div>
-    <hr size="3">
 
     <div class="container-fluid text-center">
         <h1 id="catcher" class="text-center">This is how we work.</h1>
@@ -59,8 +58,9 @@
                 <div class="card">
                     <div id="services" class="card-body">
                         <img id="serviceimage" src="{% static 'blog/images/services/customized.png' %}">
-                        <h2 id = "servicetext" class="text-center">Customized Requirements</h2>
-                        <p id = "servicesmall" class="text-center">We are more than eager to meet the client's every need and requirement,
+                        <h2 id="servicetext" class="text-center">Customized Requirements</h2>
+                        <p id="servicesmall" class="text-center">We are more than eager to meet the client's every need
+                            and requirement,
                             from
                             method of installation and schedule to materials.</p>
                     </div>
@@ -70,8 +70,8 @@
                 <div class="card">
                     <div id="services" class="card-body">
                         <img id="serviceimage" src="{% static 'blog/images/services/delivery.png' %}">
-                        <h2 id = "servicetext">Quality Materials</h2>
-                        <p id = "servicesmall">The materials used for installation of cameras are handpicked to ensure
+                        <h2 id="servicetext">Quality Materials</h2>
+                        <p id="servicesmall">The materials used for installation of cameras are handpicked to ensure
                             efficiency and quality.</p>
                     </div>
                 </div>
@@ -80,8 +80,9 @@
                 <div class="card">
                     <div id="services" class="card-body">
                         <img id="serviceimage" src="{% static 'blog/images/services/highquality.png' %}">
-                        <h2 id = "servicetext">Outstanding Service</h2>
-                        <p id = "servicesmall">Every step we take is scrutinized so that we can achieve the desired results
+                        <h2 id="servicetext">Outstanding Service</h2>
+                        <p id="servicesmall">Every step we take is scrutinized so that we can achieve the desired
+                            results
                             of
                             the client. </p>
                     </div>
@@ -91,8 +92,9 @@
                 <div class="card">
                     <div id="services" class="card-body">
                         <img id="serviceimage" src="{% static 'blog/images/services/highvalue.png' %}">
-                        <h2 id = "servicetext" class="text-center">Value for Money</h2>
-                        <p id = "servicesmall" class="text-center">We make sure that every penny you spend is matched to the best and suitable
+                        <h2 id="servicetext" class="text-center">Value for Money</h2>
+                        <p id="servicesmall" class="text-center">We make sure that every penny you spend is matched to
+                            the best and suitable
                             CCTV
                             cameras and services that we offer.</p>
                     </div>
@@ -102,9 +104,10 @@
                 <div class="card">
                     <div id="services" class="card-body">
                         <img id="serviceimage" src="{% static 'blog/images/services/support.png' %}">
-                        <h2 id = "servicetext">Long-Term Warranty</h2>
-                        <p id = "servicesmall">We provide one-year warranty to make sure that you're covered in every problem
-                        that might arise.</p>
+                        <h2 id="servicetext">Long-Term Warranty</h2>
+                        <p id="servicesmall">We provide one-year warranty to make sure that you're covered in every
+                            problem
+                            that might arise.</p>
                     </div>
                 </div>
             </div>
@@ -112,14 +115,35 @@
                 <div class="card">
                     <div id="services" class="card-body">
                         <img id="serviceimage" src="{% static 'blog/images/services/cloud.png' %}">
-                        <h2 id = "servicetext">Anytime, Anywhere</h2>
-                        <p id = "servicesmall">The CCTV cameras are your eyes and ears, and you can see and hear them in a
-                        simple touch on a viewing app in your smartphone! </p>
+                        <h2 id="servicetext">Anytime, Anywhere</h2>
+                        <p id="servicesmall">The CCTV cameras are your eyes and ears, and you can see and hear them in a
+                            simple touch on a viewing app in your smartphone! </p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
+
+    <div class="container-fluid text-center">
+        <h1 style="margin-bottom: 50px;" id="catcher" class="text-center">Our Blog</h1>
+
+        <div class="row justify-content-center">
+
+            {% for post in posts|slice:"3" %}
+                <div class="card1" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 style ="font-family: 'Fredoka One', sans-serif;"class="card-title">{{ post.title|truncatewords:10 }}</h5>
+                        <p style = "font-family: 'Muli', sans-serif;"class="card-text">{{ post.content|truncatewords:15|safe }}</p>
+                        <a target="_blank" href="{% url 'blog:post_detail' slug=post.slug pk=post.id %}" class="btn btn-info">Read More</a>
+                    </div>
+                </div>
+            {% endfor %}
+
+
+        </div>
+    </div>
+
 
 {% endblock %}
 </html>
