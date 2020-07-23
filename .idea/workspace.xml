@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="feafc1e2-3587-4fc2-9a7c-b1671b55f9e0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/templates/blog/landing.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog/landing.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -200,14 +201,7 @@
       <workItem from="1595315116300" duration="21535000" />
       <workItem from="1595384332362" duration="6528000" />
       <workItem from="1595475846340" duration="2961000" />
-      <workItem from="1595489402262" duration="10376000" />
-    </task>
-    <task id="LOCAL-00008" summary="Settings changed 2">
-      <created>1594639934674</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1594639934674</updated>
+      <workItem from="1595489402262" duration="10617000" />
     </task>
     <task id="LOCAL-00009" summary="Small change">
       <created>1594640225379</created>
@@ -545,7 +539,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595500250457</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="Removed blog posts">
+      <created>1595500509980</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1595500509980</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -553,7 +554,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Removed Telegram share" />
     <MESSAGE value="Added Tab Titles for visibility" />
     <MESSAGE value="Fixed Comment Section" />
     <MESSAGE value="Added Sitemaps" />
@@ -578,7 +578,8 @@
     <MESSAGE value="Resized Logos" />
     <MESSAGE value="Changed fonts" />
     <MESSAGE value="Added blog to landing" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added blog to landing" />
+    <MESSAGE value="Removed blog posts" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed blog posts" />
   </component>
   <component name="WindowStateProjectService">
     <state x="679" y="126" key="#BlogApp" timestamp="1594546843462">
@@ -656,10 +657,10 @@
     <state x="170" y="28" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1591588503116" />
     <state x="170" y="40" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1589954220018" />
     <state x="436" y="147" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1594973804250" />
-    <state x="539" y="281" key="Vcs.Push.Dialog.v2" timestamp="1595500292231">
+    <state x="539" y="281" key="Vcs.Push.Dialog.v2" timestamp="1595500528125">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="539" y="281" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1595500292231" />
+    <state x="539" y="281" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1595500528125" />
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1594972679566">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
