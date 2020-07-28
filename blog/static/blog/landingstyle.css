@@ -364,3 +364,37 @@ border-bottom-right-radius: 12px;
 .card1:hover .card__info-hover {
     opacity: 1;
 }
+
+#info-company {
+    font-family: "Muli", sans-serif;
+    display:inline;
+    text-align:center;
+    font-size: 20px;
+
+}
+
+#logo {
+    float:left;
+    margin-right: 15px;
+    margin-top: 20px;
+}
+
+#img-container {
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+#about {
+    font-family: "Fredoka One", sans-serif;
+    margin-top: 30px;
+    font-weight: bolder;
+}
+
+#vision {
+    font-size: 20px;
+}
+
+#mission {
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
