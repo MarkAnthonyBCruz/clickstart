@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="feafc1e2-3587-4fc2-9a7c-b1671b55f9e0" name="Default Changelist" comment="Added About on landing page">
+    <list default="true" id="feafc1e2-3587-4fc2-9a7c-b1671b55f9e0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/static/blog/landingstyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/blog/static/blog/landingstyle.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/static/blog/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/blog/static/blog/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/templates/base/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/base/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/templates/base/landingbase.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/base/landingbase.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/templates/blog/contactus.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog/contactus.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/templates/blog/landing.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog/landing.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/templates/blog/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog/services.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -213,14 +208,7 @@
       <workItem from="1595764163218" duration="1466000" />
       <workItem from="1595816614900" duration="537000" />
       <workItem from="1595922085975" duration="3578000" />
-      <workItem from="1596011067399" duration="2358000" />
-    </task>
-    <task id="LOCAL-00016" summary="Updated blank links 2">
-      <created>1594711034898</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1594711034898</updated>
+      <workItem from="1596011067399" duration="3446000" />
     </task>
     <task id="LOCAL-00017" summary="Removed Newsletter element">
       <created>1594711417061</created>
@@ -558,7 +546,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595924633728</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="Added Newsroom and Follow us. Changed fonts to uniform">
+      <created>1596013555393</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1596013555394</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -566,8 +561,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Adjusted maps bottom margin." />
-    <MESSAGE value="Added project images and page." />
     <MESSAGE value="Added projects link to About" />
     <MESSAGE value="Fixed about" />
     <MESSAGE value="Added Landing Page" />
@@ -591,7 +584,9 @@
     <MESSAGE value="fixed carousel" />
     <MESSAGE value="Added &quot;Get Started&quot; Button" />
     <MESSAGE value="Added About on landing page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added About on landing page" />
+    <MESSAGE value="Added Newsroom and Follow us. Changed fonts to uniform" />
+    <MESSAGE value="About us url fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="About us url fixed" />
   </component>
   <component name="WindowStateProjectService">
     <state x="679" y="126" key="#BlogApp" timestamp="1594546843462">
@@ -621,10 +616,10 @@
     </state>
     <state x="445" y="254" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.738@0.0.1366.738" timestamp="1592825050381" />
     <state x="445" y="264" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.768@0.0.1366.768" timestamp="1590749731453" />
-    <state x="658" y="80" width="970" height="804" key="CommitChangelistDialog2" timestamp="1596013529704">
+    <state x="658" y="80" width="970" height="804" key="CommitChangelistDialog2" timestamp="1596014612681">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="658" y="80" width="970" height="804" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1596013529704" />
+    <state x="658" y="80" width="970" height="804" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1596014612681" />
     <state x="0" y="126" width="1536" height="861" key="DiffContextDialog" timestamp="1595145114527">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -669,10 +664,10 @@
     <state x="170" y="28" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1591588503116" />
     <state x="170" y="40" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1589954220018" />
     <state x="436" y="147" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1594973804250" />
-    <state x="539" y="281" key="Vcs.Push.Dialog.v2" timestamp="1595924651270">
+    <state x="539" y="281" key="Vcs.Push.Dialog.v2" timestamp="1596013625660">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="539" y="281" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1595924651270" />
+    <state x="539" y="281" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1596013625660" />
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1594972679566">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
