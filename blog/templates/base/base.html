@@ -69,8 +69,23 @@
                 <div class="navbar-nav mr-auto">
                     <a class="nav-item nav-link" href="{% url 'blog:landing' %}">Home</a>
                     <a class="nav-item nav-link" href="{% url 'blog:blog-home' %}">Blog</a>
-                    <!--<a class="nav-item nav-link" href="{% url 'blog:blog-about' %}">About</a>-->
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                           data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Newsroom
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="{% url 'newsapp:news_home' %}">Engadget</a>
+                            <a class="dropdown-item" href="{% url 'newsapp:bbc' %}">BBC</a>
+                            <a class="dropdown-item" href="{% url 'newsapp:wsj' %}">The Wall Street Journal</a>
+                            <a class="dropdown-item" href="{% url 'newsapp:corona' %}">Coronavirus Latest News</a>
+                        </div>
+                    </li>
+
                     <a class="nav-item nav-link" href="{% url 'blog:blog-contact' %}">Contact Us</a>
+
+
 
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"

@@ -3,6 +3,7 @@ body {
     color: #333333;
     margin-top: 5rem;
     margin-bottom: 5rem;
+    font-family: "B612", sans-serif;
 
 }
 
@@ -40,7 +41,7 @@ ul {
     border-radius: 3px;
     margin-bottom: 20px;
 
-    font-family: "B612", sans-serif;
+    font-family: "Fredoka One", sans-serif;
 
 }
 
@@ -133,10 +134,11 @@ p {
 }
 
 #about {
-    font-family: "B612", sans-serif;
+    font-family: "Fredoka One", sans-serif;
     font-weight: bold;
     text-align: center;
     margin-top: 20px;
+    margin-bottom: 25px;
 
 }
 
@@ -151,7 +153,7 @@ p {
 }
 
 #choose {
-    font-family: "B612", sans-serif;
+    font-family: "Fredoka One", sans-serif;
     font-weight: bold;
     text-align: center;
 
@@ -175,10 +177,10 @@ p {
 }
 
 #info-text{
-  margin-top: 20px;
+  margin-top: 25px;
   margin-left: 2px;
   text-align: center;
-  font-family: "B612", sans-serif;
+  font-family: "Fredoka One", sans-serif;
     font-weight: bold;
   margin-bottom:20px;
 
@@ -201,14 +203,14 @@ p {
 }
 
 #about2 {
-    font-family: "B612", sans-serif;
+    font-family: "Fredoka One", sans-serif;
     font-weight: bold;
     text-align: center;
     margin-top: 30px;
 }
 
 #about3 {
-    font-family: "B612", sans-serif;
+    font-family: "Fredoka One", sans-serif;
     font-weight: bold;
     text-align: center;
     margin-top: 20px;
@@ -320,7 +322,7 @@ p {
     padding-bottom:56.25%;
     position:relative;
     height:0;
-    margin-bottom: 75px;
+    margin-bottom: 50px;
 }
 
 
@@ -331,4 +333,8 @@ p {
     height:100%;
     width:100%;
     position:absolute;
+}
+
+.form-group {
+    font-family: "B612", sans-serif;
 }

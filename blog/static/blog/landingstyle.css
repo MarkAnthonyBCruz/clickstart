@@ -376,7 +376,7 @@ border-bottom-right-radius: 12px;
 #logo {
     float:left;
     margin-right: 15px;
-    margin-top: 20px;
+    margin-top: 15px;
 }
 
 #img-container {
@@ -397,4 +397,11 @@ border-bottom-right-radius: 12px;
 #mission {
     margin-top: 50px;
     margin-bottom: 80px;
+}
+
+#socials {
+    width: 80px;
+    height: 80px;
+    margin-top: 50px;
+    margin-right: 25px;
 }
