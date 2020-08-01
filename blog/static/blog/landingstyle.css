@@ -1,7 +1,8 @@
 body {
 
     color: #333333;
-
+    margin-bottom: 0px;
+    margin-top: 0px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -66,7 +67,6 @@ banner {
 }
 
 .site-header .navbar-nav .nav-link {
-
     color: #ffffff;
     font-family: 'Muli', sans-serif;
 
@@ -154,17 +154,22 @@ banner {
 	display: block;
 
 
+
 }
 
 #services2 {
-	width: 400px;
-	height: 400px;
+	background-color: inherit;
+    border-width: 0px;
+    margin-top: -40px;
+
 
 
 }
 
 
 #services1{
+    background-color: inherit;
+    border-width: 0px;
 
 }
 
@@ -184,15 +189,21 @@ banner {
 }
 
 #secondcon {
-	margin-top: 50px;
+	padding-top: 50px;
 
 }
 
 #secondcon2 {
-	margin-top: 80px;
-
+    margin-top:0px;
+    background-image: linear-gradient( 135deg, #FFA500 50%, #DE4313 100%);
+    padding-top: 150px;
+    padding-bottom: 110px;
 }
 
+
+#conrow {
+
+}
 
 #serviceimage {
 	width: 150px;
@@ -405,3 +416,9 @@ border-bottom-right-radius: 12px;
     margin-top: 50px;
     margin-right: 25px;
 }
+
+ @media all and (max-width : 480px) {
+      #secondcon2{
+          padding-top: 60px;
+      }
+    }

@@ -3,13 +3,13 @@
 {% extends 'base/landingbase.html' %}
 {% load static %}
 {% block content %}
-    <div id="secondcon2" class="container">
-        <div class="row justify-content-center">
+    <div id="secondcon2" class="container-fluid">
+        <div id="conrow" class="row justify-content-center">
             <div class="col-md-5">
-                <div class="card">
+                <div id ="services1" class="card">
                     <div id="services" class="card-body">
-                        <h1 id="catcher">Be the eyes and ears in everything that matters.</h1>
-                        <h5 id="below">As technology and business methods advance more than ever,
+                        <h1 id="catcher" style="color: white;">Be the eyes and ears in everything that matters.</h1>
+                        <h5 id="below" style="color: white;">As technology and business methods advance more than ever,
                             security becomes a
                             necessity for everybody and everything.<br><br>
                             We at Clickstart CCTV makes it easier for you to ensure that safety is accessible.</h5>
@@ -18,7 +18,7 @@
                 </div>
             </div>
             <div class="col-md-5">
-                <div class="card">
+                <div id ="services2" class="card">
                     <div id="services" class="card-body">
                         <img id="sec" src="{% static 'blog/images/landing/security.png' %}">
                     </div>
@@ -36,7 +36,7 @@
             <a id="but" class="btn btn-info btn-lg text-center" href="{% url 'blog:blog-home' %}"
                style="color:white;">Our Blog</a>
             <a id="but" class="btn btn-primary btn-lg text-center" href="{% url 'blog:blog-contact' %}"
-               style="color:white;">Contact Us Here</a>
+               style="color:white;">Contact Us</a>
             <a id="but" class="btn btn-danger btn-lg text-center" href="{% url 'newsapp:news_home' %}"
                style="color:white;">The Newsroom</a>
         </div>

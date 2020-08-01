@@ -45,3 +45,21 @@ def crona(request):
 
     }
 
+def quotes(request):
+
+    url = 'https://api.quotable.io/random'
+
+    quote = requests.get(url).json()
+
+    return {
+            'quote': quote['content'],
+            'author': quote['author'],
+            'tags': quote['tags']
+    }
+
+  
+
+
+
+
+
