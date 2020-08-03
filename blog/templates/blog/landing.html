@@ -8,8 +8,8 @@
             <div class="col-md-5">
                 <div id ="services1" class="card">
                     <div id="services" class="card-body">
-                        <h1 id="catcher" style="color: white;">Be the eyes and ears in everything that matters.</h1>
-                        <h5 id="below" style="color: white;">As technology and business methods advance more than ever,
+                        <h1 id="catcher">Be the eyes and ears in everything that matters.</h1>
+                        <h5 id="below">As technology and business methods advance more than ever,
                             security becomes a
                             necessity for everybody and everything.<br><br>
                             We at Clickstart CCTV makes it easier for you to ensure that safety is accessible.</h5>
@@ -166,7 +166,7 @@
             {% for post in posts|slice:"3" %}
                 <div class="card1" style="width: 20rem; margin-bottom: 25px;">
                     <div class="card-body">
-                        <h5 style ="font-family: 'Fredoka One', sans-serif;"class="card-title">{{ post.title }}</h5>
+                        <h5 style ="font-family: 'Signika', sans-serif;"class="card-title">{{ post.title }}</h5>
                         <a target="_blank" href="{% url 'blog:post_detail' slug=post.slug pk=post.id %}" class="btn btn-info">Read More</a>
                     </div>
                 </div>

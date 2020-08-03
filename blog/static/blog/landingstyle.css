@@ -15,8 +15,7 @@ ul {
 
 #catcher {
 	margin-top: 50px;
-	font-family: 'Fredoka One', sans-serif;
-	font-weight:bolder;
+	font-family: 'Signika', sans-serif;
 
 }
 
@@ -195,9 +194,8 @@ banner {
 
 #secondcon2 {
     margin-top:0px;
-    background-image: linear-gradient( 135deg, #FFA500 50%, #DE4313 100%);
-    padding-top: 150px;
-    padding-bottom: 110px;
+    padding-top: 100px;
+    padding-bottom: 50px;
 }
 
 
@@ -224,14 +222,13 @@ banner {
 }
 
 #servicetext {
-	font-family: "Fredoka One", sans-serif;
-	font-weight: bold;
+	font-family: "Signika", sans-serif;
 	margin-bottom: 25px;
 }
 
 #servicesmall {
 	font-family: "Muli", sans-serif;
-	font-weight: bold;
+
 }
 
 #blogcard{
@@ -396,9 +393,9 @@ border-bottom-right-radius: 12px;
 }
 
 #about {
-    font-family: "Fredoka One", sans-serif;
+    font-family: "Signika", sans-serif;
     margin-top: 30px;
-    font-weight: bolder;
+
 }
 
 #vision {
@@ -416,9 +413,3 @@ border-bottom-right-radius: 12px;
     margin-top: 50px;
     margin-right: 25px;
 }
-
- @media all and (max-width : 480px) {
-      #secondcon2{
-          padding-top: 60px;
-      }
-    }

@@ -8,12 +8,12 @@
         <center><h1></h1></center>
     </div>
 
-    <center><h1 style="margin-bottom: 50px;">Philippines Coronavirus Tracker as
+    <center><h1 style="font-family: 'Signika', sans-serif; margin-bottom: 50px;">Philippines Coronavirus Tracker as
         of {{ time|date:"F d, Y" }}</h1></center>
 
     <div class="row">
         <div class="card">
-            <div class="card-body">
+            <div class="card-body" style="font-family: 'Signika', sans-serif">
                 <center><h1 class="card-title">All Cases</h1></center>
                 <center><h1>{{ all }}</h1></center>
                 <img src="{% static 'blog/images/corona-virus.png' %}" style="object-fit: contain; margin: auto;">
@@ -24,7 +24,7 @@
         </div>
 
         <div class="card" style="margin-left: 90px;">
-            <div class="card-body">
+            <div class="card-body" style="font-family: 'Signika', sans-serif">
                 <center><h1 class="card-title">Deaths</h1></center>
                 <center><h1>{{ deaths }}</h1></center>
                 <img src="{% static 'blog/images/death.png' %}" style="object-fit: contain; margin: auto;">
@@ -38,7 +38,7 @@
 
     <div class="row">
         <div class="card" style="margin-top: 70px;">
-            <div class="card-body">
+            <div class="card-body" style="font-family: 'Signika', sans-serif">
                 <center><h1 class="card-title">Recoveries</h1></center>
                 <center><h1>{{ recovered }}</h1></center>
                 <img src="{% static 'blog/images/hospital.png' %}" style="object-fit: contain; margin: auto;">
@@ -49,7 +49,7 @@
         </div>
 
         <div class="card" style="margin-top: 70px; margin-left: 90px;">
-            <div class="card-body">
+            <div class="card-body" style="font-family: 'Signika', sans-serif">
                 <center><h1 class="card-title">New Cases</h1></center>
                 <center><h1>{{ new }}</h1></center>
                 <img src="{% static 'blog/images/sick.png' %}" style="object-fit: contain; margin: auto;">
@@ -61,7 +61,7 @@
 
     <div class="row">
         <div class="card" style="margin:auto; margin-top: 70px; margin-bottom: 30px; ">
-            <div class="card-body">
+            <div class="card-body" style="font-family: 'Signika', sans-serif">
                 <center><h1 class="card-title">Critical</h1></center>
                 <center><h1>{{ critical }}</h1></center>
                 <img src="{% static 'blog/images/seneeze.png' %}" style="object-fit: contain; margin: auto;">
