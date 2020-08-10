@@ -11,7 +11,7 @@
     <article class="media content-section mb-4 mt-4">
         <div class="media-body">
             <div class="article-metadata mb-4">
-                <img class='rounded-circle article-img' src="{{ object.author.profile.image.url }}">
+                <img class='rounded-circle article-img' alt="ClickstartCCTV Profile Picture" src="{{ object.author.profile.image.url }}">
                 <a class="mr-2" href="{% url 'blog:user-posts' object.author.username %}">{{ object.author }}</a>
                 <small class="text-muted">{{ object.date_posted|date:"F d, Y" }}</small>
                 {% if object.author == user %}
@@ -52,7 +52,7 @@
         {% paginate 5 comment %}
         {% for coms in comment %}
             <article class="media content-section mb-4 ml-2" style="border-color:white">
-                <img class='rounded-circle article-img' src="/media/profile_pics/sylvanas.jpg">
+                <img class='rounded-circle article-img' src="/media/profile_pics/sylvanas.jpg" alt="Clickstart CCTV Commenter Image">
 
                 <div class="media-body">
                     <div class="mb-2">

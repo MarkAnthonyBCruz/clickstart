@@ -6,7 +6,7 @@ from .models import Post
 
 
 def weather(request):
-    url = 'http://api.openweathermap.org/data/2.5/weather?q={}&units=imperial&appid=1b453b589a0691c857ddc95f0921df69'
+    url = 'http://api.openweathermap.org/data/2.5/weather?q={}&units=metric&appid=1b453b589a0691c857ddc95f0921df69'
     city = 'Manila'
 
     r = requests.get(url.format(city)).json()

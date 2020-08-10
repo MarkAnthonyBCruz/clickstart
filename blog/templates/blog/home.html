@@ -5,7 +5,7 @@
         <article class="media content-section mt-4">
             <div class="media-body">
                 <div class="article-metadata mb-4">
-                    <img class='rounded-circle article-img' src="{{ post.author.profile.image.url }}">
+                    <img class='rounded-circle article-img' src="{{ post.author.profile.image.url }}" alt="ClickstartCCTV Profile Picture">
                     <a class="mr-2" href="{% url 'blog:user-posts' post.author.username %}">{{ post.author }}</a>
                     <small class="text-muted">{{ post.date_posted|date:"F d, Y" }}</small>
                 </div>
@@ -22,12 +22,10 @@
                     {% endfor %}
 
                     {% if post.images %}
-                        <img class="mb-2 mt-2" alt="" src="{{ post.images.url }}"
+                        <img class="mb-2 mt-2" alt="Clickstart CCTV Post Image" src="{{ post.images.url }}"
                              style='height: 100%; width: 100%; object-fit: contain'>
                     {% endif %}
-
                     <p class="article-content mt-4">{{ post.content|safe }}</p>
-
                 </div>
             </div>
         </article>
