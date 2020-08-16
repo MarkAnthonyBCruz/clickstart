@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="feafc1e2-3587-4fc2-9a7c-b1671b55f9e0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/blog/templates/blog/contactus.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog/contactus.html" afterDir="false" />
-    </list>
+    <list default="true" id="feafc1e2-3587-4fc2-9a7c-b1671b55f9e0" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -221,21 +219,7 @@
       <workItem from="1597558204969" duration="1381000" />
       <workItem from="1597560448916" duration="11000" />
       <workItem from="1597560565706" duration="13932000" />
-      <workItem from="1597575759748" duration="710000" />
-    </task>
-    <task id="LOCAL-00026" summary="Freeze">
-      <created>1594974456967</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1594974456967</updated>
-    </task>
-    <task id="LOCAL-00027" summary="Added Excluded Migrations">
-      <created>1594975851890</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1594975851890</updated>
+      <workItem from="1597575759748" duration="949000" />
     </task>
     <task id="LOCAL-00028" summary="Added Excluded Migrations">
       <created>1594977767882</created>
@@ -566,7 +550,21 @@
       <option name="project" value="LOCAL" />
       <updated>1597576482954</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="Made things smaller">
+      <created>1597576515907</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1597576515907</updated>
+    </task>
+    <task id="LOCAL-00076" summary="Margin corrections">
+      <created>1597576698047</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1597576698047</updated>
+    </task>
+    <option name="localTasksCounter" value="77" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -574,8 +572,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Minor edits 2" />
-    <MESSAGE value="Minor edits 3" />
     <MESSAGE value="Minor edits 4" />
     <MESSAGE value="Minor edits 5" />
     <MESSAGE value="Minor edits 6" />
@@ -599,7 +595,9 @@
     <MESSAGE value="Contact page revamped" />
     <MESSAGE value="Forgot the h1" />
     <MESSAGE value="Margin correction" />
-    <option name="LAST_COMMIT_MESSAGE" value="Margin correction" />
+    <MESSAGE value="Made things smaller" />
+    <MESSAGE value="Margin corrections" />
+    <option name="LAST_COMMIT_MESSAGE" value="Margin corrections" />
   </component>
   <component name="WindowStateProjectService">
     <state x="679" y="126" key="#BlogApp" timestamp="1594546843462">
@@ -629,11 +627,11 @@
     </state>
     <state x="445" y="254" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.738@0.0.1366.738" timestamp="1592825050381" />
     <state x="445" y="264" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.768@0.0.1366.768" timestamp="1590749731453" />
-    <state x="658" y="80" width="970" height="804" key="CommitChangelistDialog2" timestamp="1597576514808">
+    <state x="658" y="80" width="970" height="804" key="CommitChangelistDialog2" timestamp="1597576696821">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="658" y="80" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1597052720153" />
-    <state x="658" y="80" width="970" height="804" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1597576514808" />
+    <state x="658" y="80" width="970" height="804" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1597576696821" />
     <state x="0" y="126" width="1536" height="861" key="DiffContextDialog" timestamp="1595145114527">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -682,11 +680,11 @@
     <state x="170" y="28" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1591588503116" />
     <state x="170" y="40" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1589954220018" />
     <state x="436" y="147" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1597558582414" />
-    <state x="539" y="281" key="Vcs.Push.Dialog.v2" timestamp="1597576522543">
+    <state x="539" y="281" key="Vcs.Push.Dialog.v2" timestamp="1597576703742">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="539" y="281" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1597052762432" />
-    <state x="539" y="281" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1597576522543" />
+    <state x="539" y="281" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1597576703742" />
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1594972679566">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
