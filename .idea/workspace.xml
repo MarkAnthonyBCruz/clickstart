@@ -2,17 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="feafc1e2-3587-4fc2-9a7c-b1671b55f9e0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/blog/static/blog/contactstyle.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/static/blog/images/contactus/call.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/static/blog/images/contactus/horsewoman.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/static/blog/images/contactus/mail.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/static/blog/images/contactus/sydney-opera-house.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blog/templates/base/contactbase.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/context_processors.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/context_processors.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/templates/base/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/base/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/templates/blog/contactus.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog/contactus.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -230,14 +220,7 @@
       <workItem from="1597555043097" duration="1029000" />
       <workItem from="1597558204969" duration="1381000" />
       <workItem from="1597560448916" duration="11000" />
-      <workItem from="1597560565706" duration="13427000" />
-    </task>
-    <task id="LOCAL-00022" summary="Max length lengthened 2">
-      <created>1594891068145</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1594891068145</updated>
+      <workItem from="1597560565706" duration="13656000" />
     </task>
     <task id="LOCAL-00023" summary="Made migrations">
       <created>1594893377992</created>
@@ -575,7 +558,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597052730216</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="Contact page revamped">
+      <created>1597574844921</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1597574844923</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -583,7 +573,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="margin" />
     <MESSAGE value="container edit" />
     <MESSAGE value="Minor edit" />
     <MESSAGE value="Minor edits 2" />
@@ -608,7 +597,8 @@
     <MESSAGE value="Made the first section of landing page bigger. Also put a quotes section in the blog's sidebar." />
     <MESSAGE value="Changed Fonts" />
     <MESSAGE value="Landing change" />
-    <option name="LAST_COMMIT_MESSAGE" value="Landing change" />
+    <MESSAGE value="Contact page revamped" />
+    <option name="LAST_COMMIT_MESSAGE" value="Contact page revamped" />
   </component>
   <component name="WindowStateProjectService">
     <state x="679" y="126" key="#BlogApp" timestamp="1594546843462">
@@ -653,34 +643,34 @@
     <state x="447" y="134" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1591791464435" />
     <state x="447" y="139" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1591445636495" />
     <state x="643" y="187" width="626" height="498" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1597558565266" />
-    <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1597570859182">
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1597575134468">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="174" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1594541881320" />
     <state width="1323" height="184" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1591447604906" />
     <state width="1877" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1597053952532" />
-    <state width="1877" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1597570859166" />
-    <state width="1877" height="281" key="GridCell.Tab.0.center" timestamp="1597570859166">
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1597575134468" />
+    <state width="1877" height="281" key="GridCell.Tab.0.center" timestamp="1597575134467">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="174" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1594541881319" />
     <state width="1323" height="184" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1591447604906" />
     <state width="1877" height="281" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1597053952532" />
-    <state width="1877" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1597570859166" />
-    <state width="1877" height="281" key="GridCell.Tab.0.left" timestamp="1597570859165">
+    <state width="1877" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1597575134467" />
+    <state width="1877" height="281" key="GridCell.Tab.0.left" timestamp="1597575134467">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="174" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1594541881318" />
     <state width="1323" height="184" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1591447604906" />
     <state width="1877" height="281" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1597053952532" />
-    <state width="1877" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1597570859165" />
-    <state width="1877" height="281" key="GridCell.Tab.0.right" timestamp="1597570859166">
+    <state width="1877" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1597575134467" />
+    <state width="1877" height="281" key="GridCell.Tab.0.right" timestamp="1597575134468">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="174" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1594541881319" />
     <state width="1323" height="184" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1591447604906" />
     <state width="1877" height="281" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1597053952532" />
-    <state width="1877" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597570859166" />
+    <state width="1877" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597575134468" />
     <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1590299831509">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -691,11 +681,11 @@
     <state x="170" y="28" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1591588503116" />
     <state x="170" y="40" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1589954220018" />
     <state x="436" y="147" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1597558582414" />
-    <state x="539" y="281" key="Vcs.Push.Dialog.v2" timestamp="1597052762432">
+    <state x="539" y="281" key="Vcs.Push.Dialog.v2" timestamp="1597574886302">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="539" y="281" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1597052762432" />
-    <state x="539" y="281" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1596438654395" />
+    <state x="539" y="281" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1597574886301" />
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1594972679566">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
