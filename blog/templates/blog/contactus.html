@@ -1,4 +1,4 @@
-{% extends 'base/base.html' %}
+{% extends 'base/contactbase.html' %}
 {% load static %}
 
 {% block title %} Contact Us {% endblock %}
@@ -8,33 +8,79 @@
             Thanks {{ message_name }}! We'll respond to you shortly.
         </div>
     {% endif %}
-    <h1 id="about">Contact Us!</h1>
-    <div class="map-responsive">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3866.3209840504037!2d121.09387551577191!3d14.292773388375622!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397d83a23b4c475%3A0xfbafe06ef6aff9d4!2sClickstart%20CCTV!5e0!3m2!1sfil!2sph!4v1595241834628!5m2!1sfil!2sph" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+    <div class="mapcontainer">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3866.3209840504037!2d121.09387551577191!3d14.292773388375622!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397d83a23b4c475%3A0xfbafe06ef6aff9d4!2sClickstart%20CCTV!5e0!3m2!1sfil!2sph!4v1595241834628!5m2!1sfil!2sph"
+                width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                tabindex="0"></iframe>
     </div>
-    <h1 style="font-family: 'Signika', sans-serif;">Get in Touch!</h1>
-    <h5>You may send us your inquiries by writing a message below, and we'll get back to you right away. You may also send us a call or text at <b>0932-171-2155</b></h5>
-    <hr>
+
+
+
+    <div class="container-fluid" id="contactform">
+        <div class="row justify-content-center" id="wholerow">
+
+                <div class="col-md-5" id="container1">
+                    <h2 style="margin-left: 20px;">Contact Information</h2>
+
+                    <div class="row" id="contactrows">
+                        <img class="contact-img" src= {% static 'blog/images/contactus/call.png' %}>
+                        <ul class="text-left">
+                            <li>Sun: 0939-191-7600</li>
+                            <li>Globe: 0995-077-6502</li>
+                            <li>Smart: 0939-191-7600</li>
+                        </ul>
+
+                    </div>
+
+                    <div class="row" id="contactrows">
+                        <img class="contact-img" src= {% static 'blog/images/contactus/sydney-opera-house.png' %}>
+                        <h6 class="mt-2">#998 JB Village2, Brgy, Balibago, <br>Santa Rosa, 4026 Laguna</h6>
+                    </div>
+
+                    <div class="row" id="contactrows">
+                        <img class="contact-img" src= {% static 'blog/images/contactus/mail.png' %}>
+                        <h6 class="mt-2">clickstartcctv@gmail.com</h6>
+                    </div>
+
+                    <div class="row" id="contactrows">
+                        <img class="contact-img" src= {% static 'blog/images/facebook.png' %}>
+                        <h6 class="mt-2">facebook.com/clickstartcctv</h6>
+                    </div>
+                </div>
 
 
 
 
-    <form action="{% url 'blog:blog-contact' %}" method="POST">
-        {% csrf_token %}
-        <div class="form-row">
-            <div class="form-group col-md-6">
-                <label for="yourname">Your Name</label>
-                <input type="text" class="form-control" id="yourname" name="message-name" placeholder="" required>
-            </div>
-            <div class="form-group col-md-6">
-                <label for="youremail">Your E-mail</label>
-                <input type="email" class="form-control" id="youremail" name="message-email" placeholder="" required>
+            <div class="col-md-5" id="contactas">
+                <h1 style="font-family: 'Signika', sans-serif;">Get in Touch!</h1>
+                <h5>You may send us your inquiries by writing a message below, and we'll get back to you right away. You
+                    may
+                    also send us a call or text at <b>0932-171-2155</b></h5>
+                <hr>
+                <form action="{% url 'blog:blog-contact' %}" method="POST" class="theform">
+                    {% csrf_token %}
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="yourname">Your Name</label>
+                            <input type="text" class="form-control" id="yourname" name="message-name" placeholder=""
+                                   required>
+                        </div>
+                        <div class="form-group col-md-6">
+                            <label for="youremail">Your E-mail</label>
+                            <input type="email" class="form-control" id="youremail" name="message-email" placeholder=""
+                                   required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputAddress">Your Message</label>
+                        <textarea style="height: 100px;" class="mceNoEditor form-control" id="mainmessage"
+                                  name="message"
+                                  placeholder=""></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send</button>
+                </form>
             </div>
         </div>
-        <div class="form-group">
-            <label for="inputAddress">Your Message</label>
-            <textarea style="height: 200px;" class="mceNoEditor form-control" id="mainmessage" name="message" placeholder=""></textarea>
-        </div>
-        <button type="submit" class="btn btn-primary">Send</button>
-    </form>
+    </div>
 {% endblock %}

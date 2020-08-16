@@ -2,13 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="feafc1e2-3587-4fc2-9a7c-b1671b55f9e0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/contactstyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/images/contactus/call.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/images/contactus/horsewoman.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/images/contactus/mail.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/static/blog/images/contactus/sydney-opera-house.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blog/templates/base/contactbase.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/context_processors.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/context_processors.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/static/blog/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/blog/static/blog/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/templates/base/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/base/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/templates/blog/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/templates/blog/post_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog/post_detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/templates/blog/user_posts.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog/user_posts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/templates/blog/contactus.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/templates/blog/contactus.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,8 +61,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
-        <option value="CSS File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -89,21 +93,22 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="run.code.analysis.last.selected.profile" value="aDefault" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Mark Cruz\PycharmProjects\BlogApp\blog\static\blog\images\contactus" />
+      <recent name="C:\Users\Mark Cruz\PycharmProjects\BlogApp\blog\static\blog\images" />
+      <recent name="C:\Users\user\PycharmProjects\BlogApp\blog\static\blog\images" />
+      <recent name="C:\Users\user\PycharmProjects\BlogApp\media" />
+      <recent name="C:\Users\user\PycharmProjects\BlogApp\blog\templates\base" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Mark Cruz\PycharmProjects\BlogApp\blog\static\blog\images" />
       <recent name="C:\Users\Mark Cruz\PycharmProjects\BlogApp\blog\static\blog\images\landing" />
       <recent name="C:\Users\Mark Cruz\PycharmProjects\BlogApp\media" />
       <recent name="C:\Users\Mark Cruz\PycharmProjects\BlogApp\blog\static\blog" />
       <recent name="C:\Users\user\PycharmProjects\BlogApp\blog\static\blog\images" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Mark Cruz\PycharmProjects\BlogApp\blog\static\blog\images" />
-      <recent name="C:\Users\user\PycharmProjects\BlogApp\blog\static\blog\images" />
-      <recent name="C:\Users\user\PycharmProjects\BlogApp\media" />
-      <recent name="C:\Users\user\PycharmProjects\BlogApp\blog\templates\base" />
     </key>
   </component>
   <component name="RunManager">
@@ -219,14 +224,13 @@
       <workItem from="1596267351845" duration="4469000" />
       <workItem from="1596431211744" duration="2267000" />
       <workItem from="1596438475624" duration="789000" />
-      <workItem from="1597051713284" duration="795000" />
-    </task>
-    <task id="LOCAL-00021" summary="Max length lengthened.">
-      <created>1594890406065</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1594890406111</updated>
+      <workItem from="1597051713284" duration="2029000" />
+      <workItem from="1597140265939" duration="1154000" />
+      <workItem from="1597314225754" duration="495000" />
+      <workItem from="1597555043097" duration="1029000" />
+      <workItem from="1597558204969" duration="1381000" />
+      <workItem from="1597560448916" duration="11000" />
+      <workItem from="1597560565706" duration="13427000" />
     </task>
     <task id="LOCAL-00022" summary="Max length lengthened 2">
       <created>1594891068145</created>
@@ -564,7 +568,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596438644529</updated>
     </task>
-    <option name="localTasksCounter" value="70" />
+    <task id="LOCAL-00070" summary="Landing change">
+      <created>1597052730215</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1597052730216</updated>
+    </task>
+    <option name="localTasksCounter" value="71" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -627,68 +638,75 @@
     </state>
     <state x="445" y="254" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.738@0.0.1366.738" timestamp="1592825050381" />
     <state x="445" y="264" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.768@0.0.1366.768" timestamp="1590749731453" />
-    <state x="658" y="80" width="970" height="804" key="CommitChangelistDialog2" timestamp="1596438637952">
+    <state x="658" y="80" width="970" height="804" key="CommitChangelistDialog2" timestamp="1597574838862">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="658" y="80" width="970" height="804" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1596438637952" />
+    <state x="658" y="80" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1597052720153" />
+    <state x="658" y="80" width="970" height="804" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1597574838862" />
     <state x="0" y="126" width="1536" height="861" key="DiffContextDialog" timestamp="1595145114527">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="0" y="126" width="1536" height="861" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1595145114527" />
-    <state x="628" y="189" key="FileChooserDialogImpl" timestamp="1595384458603">
+    <state x="643" y="187" width="626" height="498" key="FileChooserDialogImpl" timestamp="1597558565266">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="447" y="134" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1591791464435" />
     <state x="447" y="139" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1591445636495" />
-    <state x="628" y="189" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1595384458603" />
-    <state width="1655" height="237" key="GridCell.Tab.0.bottom" timestamp="1596439367195">
+    <state x="643" y="187" width="626" height="498" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1597558565266" />
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1597570859182">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="174" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1594541881320" />
     <state width="1323" height="184" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1591447604906" />
-    <state width="1655" height="237" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1596439367195" />
-    <state width="1655" height="237" key="GridCell.Tab.0.center" timestamp="1596439367195">
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1597053952532" />
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1597570859166" />
+    <state width="1877" height="281" key="GridCell.Tab.0.center" timestamp="1597570859166">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="174" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1594541881319" />
     <state width="1323" height="184" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1591447604906" />
-    <state width="1655" height="237" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1596439367195" />
-    <state width="1655" height="237" key="GridCell.Tab.0.left" timestamp="1596439367195">
+    <state width="1877" height="281" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1597053952532" />
+    <state width="1877" height="281" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1597570859166" />
+    <state width="1877" height="281" key="GridCell.Tab.0.left" timestamp="1597570859165">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="174" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1594541881318" />
     <state width="1323" height="184" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1591447604906" />
-    <state width="1655" height="237" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1596439367195" />
-    <state width="1655" height="237" key="GridCell.Tab.0.right" timestamp="1596439367195">
+    <state width="1877" height="281" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1597053952532" />
+    <state width="1877" height="281" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1597570859165" />
+    <state width="1877" height="281" key="GridCell.Tab.0.right" timestamp="1597570859166">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1323" height="174" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1594541881319" />
     <state width="1323" height="184" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1591447604906" />
-    <state width="1655" height="237" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1596439367195" />
+    <state width="1877" height="281" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1597053952532" />
+    <state width="1877" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1597570859166" />
     <state width="196" height="457" key="HiddenNamespacesPopup" timestamp="1590299831509">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state width="196" height="457" key="HiddenNamespacesPopup/0.0.1366.768@0.0.1366.768" timestamp="1590299831509" />
-    <state x="436" y="147" key="SettingsEditor" timestamp="1594973804250">
+    <state x="436" y="147" key="SettingsEditor" timestamp="1597558582414">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="170" y="28" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1591588503116" />
     <state x="170" y="40" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1589954220018" />
-    <state x="436" y="147" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1594973804250" />
-    <state x="539" y="281" key="Vcs.Push.Dialog.v2" timestamp="1596438654395">
+    <state x="436" y="147" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1597558582414" />
+    <state x="539" y="281" key="Vcs.Push.Dialog.v2" timestamp="1597052762432">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="539" y="281" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1597052762432" />
     <state x="539" y="281" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1596438654395" />
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1594972679566">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1594972679566" />
-    <state x="744" y="367" key="com.intellij.ide.util.TipDialog" timestamp="1596438479131">
+    <state x="744" y="367" key="com.intellij.ide.util.TipDialog" timestamp="1597560565838">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="529" y="266" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1594538709621" />
     <state x="529" y="277" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1591443895619" />
-    <state x="744" y="367" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1596438479131" />
+    <state x="744" y="367" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1597314223887" />
+    <state x="744" y="367" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1597560565838" />
     <state x="582" y="221" width="1354" height="763" key="dock-window-1" timestamp="1595144456861">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

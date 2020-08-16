@@ -54,8 +54,9 @@ def quotes(request):
     return {
             'quote': quote['content'],
             'author': quote['author'],
-            'tags': quote['tags']
+            'tags': quote['tags'],
     }
+
 
   
 

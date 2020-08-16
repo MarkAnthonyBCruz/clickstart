@@ -17,7 +17,6 @@ import random
 from django import template
 import requests
 
-
 def home(request):
     context = {
         'posts': Post.objects.all()

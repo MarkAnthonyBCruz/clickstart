@@ -50,7 +50,7 @@
 
     <title>Clickstart CCTV | {% block title %}{% endblock %}</title>
 
-    <link rel="stylesheet" href="{% static 'blog/main.css' %}">
+    <link rel="stylesheet" href="{% static 'blog/contactstyle.css' %}">
 
 </head>
 <!--<body style = 'background: #ffffff; background-image: url("{% static 'blog/images/walking-girl.png' %}"); background-repeat: no-repeat; background-position: bottom right; background-size: 50% 50%'>-->
@@ -127,129 +127,8 @@
         </div>
     </nav>
 </header>
-<main role="main" class="container">
-    <div class="row">
-        <div class="col-md-8">
-            {% if messages %}
-                {% for message in messages %}
-                    <div class="alert alert-{{ message.tags }}">
-                        {{ message }}
-                    </div>
-                {% endfor %}
-            {% endif %}
-            {% block content %}{% endblock %}
-        </div>
 
-        <div class="col-md-4 mt-4">
-
-            <div class="content-section text-center">
-                <h4>Having trouble with your Hikvision Password and Remote Viewing through
-                    Mobile?</h4>
-                <h5>We can help you with that!</h5>
-                <img src="https://img.icons8.com/clouds/2x/password-window.png"
-                     style="width: 120px; height: 120px;"></a>
-                <br>
-                <br>
-                <h4>Just call or text us at 0932-171-2155 for support!</h4>
-            </div>
-
-            <div class="content-section text-center">
-                <h2>Support Us!</h2>
-                <a target="_blank" href="https://paypal.me/allanpalma2019?locale.x=en_US">
-                    <img src="{% static 'blog/images/kisspng-paypal-logo-brand-font-payment-paypal-logo-icon-paypal-icon-logo-png-and-vecto-5b7f273e45e8a9.9067728615350597742864.png' %}" style="width: 150px; height: 150px;"></a>
-                <br>
-                <br>
-                <h5>If you are satisfied and happy with my website, you can support me for its improvement and to help
-                    the victims of Covid-19 around the world.</h5>
-            </div>
-
-            <div class="content-section text-center">
-                <center><h2 class="mt-2">Follow us!</h2></center>
-                <p>For the latest updates.</p>
-                <div class="row">
-                    <a href="https://www.facebook.com/clickstartcctv/" target="_blank"><img
-                            src="{% static 'blog/images/facebook.png' %}" id="soc"></a>
-                    <a href="https://twitter.com/clickstartcctv" target="_blank"><img
-                            src="{% static 'blog/images/twitter.png' %}" id="soc"></a>
-                    <a href="https://www.youtube.com/channel/UCBPEHyFfB6RXDetde5EU6Vw" target="_blank"><img
-                            src="{% static 'blog/images/youtube.png' %}" id="soc"></a>
-                    <a href="https://www.instagram.com/clickstartcctv/" target="_blank"><img
-                            src="{% static 'blog/images/instagram.png' %}" id="soc"></a>
-                </div>
-            </div>
-
-            <div class="content-section">
-                <a href="{% url 'newsapp:corona' %}">
-                    <center><h2>Coronavirus Cases</h2></center>
-                </a>
-                <center><h5>(As of {{ date|date:"F d, Y" }})</h5></center>
-                <div class="row">
-                    <p id="crona3">All Cases</p>
-                    <p id="crona3">Deaths</p>
-                    <p id="crona3">Recovered</p>
-                </div>
-                <div class="row">
-                    <img src="{% static 'blog/images/corona-virus.png' %}" id="crona2">
-                    <img src="{% static 'blog/images/death.png' %}" id="crona2">
-                    <img src="{% static 'blog/images/hospital.png' %}" id="crona2">
-                </div>
-                <div class="row">
-                    <p id="crona4">{{ all }}</p>
-                    <p id="crona4">{{ deaths }}</p>
-                    <p id="crona4">{{ recovered }}</p>
-                </div>
-            </div>
-
-            <div class="content-section text-center">
-                <strong><h2 class="mb-4">Quote for the day</h2></strong>
-                <h5 class="mb-4">"{{ content }}"</h5>
-                <strong><p><em>- {{author}} </em></p></strong>
-            </div>
-
-            <div class="content-section text-center">
-                <h2>Weather for Today</h2>
-                <article class="media">
-                    <div class="media-left">
-                        <figure class="image is-50x50">
-                            <img src="http://openweathermap.org/img/w/{{ icon }}.png" alt="Image">
-                        </figure>
-                    </div>
-                    <div class="media-content">
-                        <div class="content">
-                            <!--<center><p>
-                                <span class="title">{{ city }}</span>
-                                <br>
-                                <span class="subtitle">{{ temperature }}</span>
-                                <br> {{ description }}
-                            </p></center>-->
-                            <h3 class="ml-2">{{ date|date:"F d, Y" }}</h3>
-                            {{ value|linebreaks }}
-                            <h3 class="ml-2">{{ city }}</h3>
-                            <h3 class="ml-2">{{ temperature }}°C</h3>
-                            <h3 class="ml-2"> {{ description }} </h3>
-                        </div>
-                </article>
-            </div>
-
-            <div class="content-section">
-                <h3>The News Emporium</h3>
-                <p class='text-muted'>Bored? You can browse for the hottest headlines from different sources here.
-                <ul class="list-group">
-                    <li class="list-group-item list-group-item-light"><a
-                            href="{% url 'newsapp:news_home' %}">Engadget</a></li>
-                    <li class="list-group-item list-group-item-light"><a href="{% url 'newsapp:bbc' %}">BBC News</a>
-                    </li>
-                    <li class="list-group-item list-group-item-light"><a href="{% url 'newsapp:wsj' %}">The Wall Street
-                        Journal</a></li>
-                    <li class="list-group-item list-group-item-light"><a href="{% url 'newsapp:corona' %}">Coronavirus
-                        Cases</a></li>
-                    <!--<li class="list-group-item list-group-item-light">etc</li>-->
-                </ul>
-                </p>
-            </div>
-        </div>
-    </div>
-</main>
+{% block content %} {% endblock %}
 
 <!----------- Footer ------------>
 <footer class="footer-bs">
