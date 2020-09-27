@@ -13,12 +13,26 @@ ul {
     margin: 0;
 }
 
-#catcher {
+
+#getQuote {
 	margin-top: 50px;
-	font-family: 'Signika', sans-serif;
+	font-family: 'Poppins', sans-serif;
 
 }
 
+#catcher {
+	margin-top: 50px;
+	font-family: 'Poppins', sans-serif;
+
+}
+
+#thetyped {
+	margin-top: 50px;
+	font-family: 'Poppins', sans-serif;
+    font-size: 6vh;
+    color: orange;
+
+}
 
 #products {
 	width: 20%;
